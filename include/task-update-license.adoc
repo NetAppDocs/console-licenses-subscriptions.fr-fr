@@ -1,0 +1,34 @@
+= 
+:allow-uri-read: 
+
+
+La console vous avertit lorsque la durée de votre licence approche de l'expiration ou lorsque votre capacité sous licence approche de la limite.  Mettez à jour votre licence avant son expiration pour éviter les interruptions de vos services de données NetApp ou Cloud Volumes ONTAP.
+
+Après avoir acheté une capacité supplémentaire auprès de NetApp ou prolongé la durée de votre licence, la console met automatiquement à jour la licence lorsque les deux conditions sont remplies :
+
+* Votre compte Console est associé à un compte de site de support NetApp
+* La console dispose d'un accès Internet
+
+
+Si votre compte Console n'est pas associé à votre compte NSS, ou si la Console fonctionne en mode privé sans accès Internet, vous devez mettre à jour manuellement la licence.
+
+Vous pouvez mettre à jour manuellement une licence en utilisant l'une ou l'autre méthode :
+
+* Saisissez le numéro de série et le compte NSS associé
+* Téléchargez le fichier de licence NetApp (ou les fichiers pour une paire Cloud Volumes ONTAP HA)
+
+
+Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , vous recevez un e-mail contenant le numéro de série et les détails de la licence.  Utilisez ce numéro de série pour mettre à jour la licence.
+
+
+NOTE: Pour saisir le numéro de série, commencez par https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajoutez votre compte de site de support NetApp à la console"^] .  Ce compte NSS doit être autorisé pour accéder au numéro de série.
+
+.Étapes
+. Contactez votre représentant NetApp pour acheter une nouvelle licence.
++
+Une fois le paiement effectué et la licence enregistrée sur le site de support NetApp , la console met automatiquement à jour la licence.  La page *Licences directes* reflète le changement dans un délai de 5 à 10 minutes.
+
+. Si la console ne peut pas mettre à jour automatiquement la licence (par exemple, lorsqu'elle fonctionne en mode privé), obtenez un fichier de licence NetApp auprès du support et téléchargez-le manuellement.<<obtain-license,Apprenez comment obtenir un fichier de licence.>>
+. Dans l'onglet *Licences directes*, sélectionnezimage:icon-action.png["Plus d'icônes"] pour le numéro de série que vous mettez à jour et sélectionnez *Mettre à jour la licence*.
+. Sur la page *Mettre à jour la licence*, téléchargez le fichier de licence et sélectionnez *Mettre à jour la licence*.
+

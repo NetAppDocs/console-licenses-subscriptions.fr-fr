@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+Les informations de licence s'affichent automatiquement dans la section **Licences et abonnements** lorsque le compte de console NetApp associé à la licence est également un compte de site de support NetApp et dispose d'un accès Internet.  Si vous avez utilisé un compte de console qui n'est pas associé à votre compte NSS, vous devrez ajouter manuellement une licence.
+
+Vous pouvez ajouter la licence dans la console soit en saisissant le numéro de série et le compte NSS associé, soit en téléchargeant le fichier de licence NetApp (NLF).  Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
+
+Après avoir acheté une licence auprès de votre représentant commercial NetApp , NetApp vous envoie un e-mail contenant le numéro de série et des informations de licence supplémentaires.  Vous aurez besoin de ce numéro de série pour ajouter ou mettre à jour la licence correspondante dans la console.
+
+
+NOTE: Pour saisir le numéro de série, commencez par https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajoutez votre compte de site de support NetApp à la console"^] .  Il s’agit du compte du site de support NetApp autorisé à accéder au numéro de série.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*, puis sélectionnez l'onglet *Licences directes*.
+. Sélectionnez *Ajouter une licence*.
+. Dans la boîte de dialogue *Ajouter une licence*, saisissez les informations de licence et sélectionnez *Ajouter une licence* :
++
+** Si vous avez le numéro de série et connaissez votre compte NSS, sélectionnez *Entrer le numéro de série* et saisissez ces informations.
++
+Si vous avez saisi un numéro de série, vous devez également sélectionner le compte du site de support NetApp autorisé à accéder au numéro de série.
+
++
+Si votre compte de site de support NetApp n'est pas disponible dans la liste déroulante, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajouter le compte NSS à la console"^]
+
+** Si vous disposez du fichier de licence (requis lors de l'utilisation de la console NetApp en mode privé), sélectionnez l'option *Télécharger le fichier de licence* et suivez les invites pour joindre le fichier.
+
+
+

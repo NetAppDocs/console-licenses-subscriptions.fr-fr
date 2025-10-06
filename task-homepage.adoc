@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, bluexp, netapp console, cloud volumes ontap license, cloud volumes ontap 
+summary: Obtenez un aperçu de tous les abonnements et licences de votre organisation sur le tableau de bord de présentation de la console. 
+---
+= Utiliser l'aperçu du tableau de bord
+:allow-uri-read: 
+
+
+
+
+== Utiliser l'aperçu du tableau de bord
+
+[role="lead"]
+Utilisez le tableau de bord *Aperçu* dans la console pour surveiller l'état de vos licences et abonnements afin de vous assurer de pouvoir gérer les coûts et maintenir le service lorsque les abonnements atteignent les dates d'expiration ou les limites de capacité.
+
+Vous pouvez afficher des informations spécifiques sur les licences et les abonnements de chacun de vos services de données (y compris Cloud Volumes ONTAP) et accéder aux détails de chacun.
+
+Vous serez également averti des limites de capacité ou des expirations à venir et serez invité à prendre des mesures.
+
+
+
+=== Afficher les détails d'un service de données spécifique
+
+Le tableau de bord *Aperçu* permet d'afficher les détails des services de données suivants :
+
+* Cloud Volumes ONTAP
+* Reprise après sinistre
+* Résilience aux ransomwares
+* Sauvegarde et récupération
+* Hiérarchisation du cloud
+
+
+Par exemple, les administrateurs chargés de gérer les ressources Cloud Volumes ONTAP peuvent afficher la capacité actuelle de chaque licence ou abonnement, ce qui leur donne une vue ciblée des ressources relevant de leur compétence.
+
+
+NOTE: Bien que vous puissiez mettre à jour et supprimer des licences depuis le tableau de bord, vous ne pouvez pas ajouter une nouvelle licence ou un nouvel abonnement.
+
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^] . link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^] .
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Aperçu*.
+. Sélectionnez *Afficher* pour le service de données concerné (y compris Cloud Volumes ONTAP) pour afficher les détails et gérer les licences et les abonnements.
++
+Chaque tuile fournit un aperçu graphique de la capacité.  Vous pouvez consulter la page de détails pour voir et gérer les méthodes de paiement pour cette capacité.
+
+. Sélectionnez l'onglet *Licences* ou *Abonnements*.
+. Filtrez le tableau en sélectionnant un filtre de colonne et une valeur à filtrer.  Par exemple, dans l’onglet *Abonnements*, vous pouvez filtrer la colonne Type par Contrat annuel ou Abonnement.
+. Personnalisez les colonnes affichées dans le tableau.  Vous pouvez ajouter et supprimer des colonnes du tableau en sélectionnant l'icône *Colonne* pour indiquer les colonnes que vous souhaitez afficher ou masquer.
+. Développez n’importe quelle ligne pour afficher les détails de ce que comprend l’abonnement ou la licence, la capacité achetée et les conditions.
+. Utilisez le menu Actions pour gérer une licence ou un abonnement spécifique, comme la mise à jour d'une licence ou l'association d'un abonnement à une autre organisation.
++
+Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *Aperçu* pour un service spécifique.  Vous ne pouvez ajouter des licences ou des abonnements qu'à partir de l'onglet *Licences directes* ou de l'onglet *Abonnements Marketplace*, respectivement.
+
++
+link:task-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]
+
+
+
+
+
+=== Résoudre les problèmes de licence ou d'abonnement
+
+Vous pouvez afficher les problèmes de licence et d’abonnement qui doivent être résolus.  Les problèmes incluent les licences et les abonnements qui expirent ou atteignent leur capacité.
+
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Aperçu*.
+. Sélectionnez *Résoudre* pour la mosaïque *Nécessite une action* pour afficher les problèmes qui doivent être réglés.  Si *Résoudre* ne s'affiche pas, aucun problème ne nécessite d'action pour le moment.
+. À partir de la page *Action requise*, sélectionnez l'onglet *Licences* ou l'onglet *Abonnements*.
+. Utilisez le menu actions pour résoudre le problème.
++
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^] . link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^] .
+
+

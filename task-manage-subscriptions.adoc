@@ -1,0 +1,216 @@
+---
+sidebar: sidebar 
+permalink: task-manage-subscriptions.html 
+keywords: subscriptions, paygo subscriptions, contracts, annual contracts, capacity, bluexp, netapp console, marketplace 
+summary: 'Abonnez-vous aux services de données NetApp (y compris Cloud Volumes ONTAP) à partir de la place de marché d"un fournisseur de cloud.' 
+---
+= Gérer les abonnements et les contrats PAYGO
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Lorsque vous vous abonnez aux services de données NetApp (y compris Cloud Volumes ONTAP) à partir de la place de marché d'un fournisseur de cloud, vous êtes redirigé vers le site Web de la console où vous enregistrez votre abonnement et l'associez à votre organisation de la console.  Une fois abonné, chaque abonnement peut être géré dans la console.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Découvrez comment vous abonner aux services de données NetApp (mode standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Découvrez comment vous abonner aux services de données NetApp (mode restreint)"^]
+
+
+
+NOTE: La page *Abonnements Marketplace* répertorie toutes les licences.  Pour obtenir des détails sur la licence d'un service de données spécifique, utilisez les vignettes de service de données sur le tableau de bord *Aperçu*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"] .
+
+
+
+== Ajouter un nouvel abonnement au marché
+
+Vous pouvez souscrire à un abonnement marketplace directement depuis la Console.
+
+[role="tabbed-block"]
+====
+.AWS
+--
+La vidéo suivante montre les étapes à suivre pour s'abonner à la console NetApp depuis AWS Marketplace :
+
+.Abonnez-vous à la console NetApp depuis AWS Marketplace
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+--
+.Azuré
+--
+La vidéo suivante montre les étapes à suivre pour s'abonner à la console NetApp depuis la Place de marché Azure :
+
+.Abonnez-vous à la console NetApp depuis Azure Marketplace
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+--
+.Google Cloud
+--
+La vidéo suivante montre les étapes à suivre pour s'abonner à NetApp Console depuis Google Cloud Marketplace :
+
+.Abonnez-vous à la console NetApp depuis Google Cloud Marketplace
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+--
+====
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Au-dessus du tableau *Abonnements*, sélectionnez *Ajouter un abonnement*.
+. Dans la boîte de dialogue Ajouter un abonnement, sélectionnez un fournisseur de cloud.
++
+.. Si vous choisissez un abonnement AWS, choisissez si vous souhaitez un contrat annuel ou un abonnement PAYGO.
+
+
+. Sélectionnez *Ajouter un abonnement* pour accéder à la place de marché du fournisseur et suivre les étapes fournies.
+. Une fois terminé sur la place de marché du fournisseur de cloud, revenez à la console pour terminer le processus.
+
+
+
+
+== Consultez vos abonnements
+
+Vous pouvez afficher les détails de chaque abonnement PAYGO et contrat annuel associé à votre organisation ou compte Console.
+
+Pour Google Cloud, vous pouvez également identifier les abonnements au marché associés à une offre privée, ce qui vous permet de vérifier que vous avez accepté l'offre avec succès.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
++
+Vous ne verrez que les abonnements associés à l'organisation que vous consultez actuellement.
+
+. Lorsque vous consultez les informations d’abonnement, vous pouvez interagir avec les détails du tableau comme suit :
++
+** Utilisez la recherche avancée et le filtrage pour déterminer quels abonnements s'affichent dans le tableau.  Vous pouvez rechercher par nom d'abonnement spécifique et filtrer par divers paramètres d'abonnement tels que le type et la configuration.
+** Développez une ligne pour afficher plus de détails.
+** Sélectionnerimage:icon-column-selector.png["l'icône plus à la fin de l'en-tête du tableau"] pour choisir les colonnes qui apparaissent dans le tableau.
++
+Les colonnes Durée et Renouvellement automatique n'apparaissent pas par défaut.  La colonne Renouvellement automatique affiche les informations de renouvellement pour les contrats Azure uniquement.
+
+
+
++
+Notez les points suivants concernant les informations du tableau :
+
++
+Date de début:: La date de début correspond à la date à laquelle vous avez associé avec succès l'abonnement à votre compte et la facturation a commencé.
+S/O:: Si vous voyez N/A dans le tableau, les informations ne sont actuellement pas disponibles auprès de l'API du fournisseur de cloud.
+Terme:: Si votre abonnement Google Cloud est associé à une offre privée qui a été modifiée après sa création et son acceptation, le terme indique N/A.  Dans ce scénario, la réponse de l'API de Google Cloud Marketplace n'inclut pas d'informations liées aux termes.
+Contrats::
++
+--
+** Lorsque vous développez les détails du contrat, la console affiche les options de contrat et les unités disponibles (capacité ou nombre de nœuds) pour votre plan actuel.
+** La console identifie la date de fin et indique si le contrat sera bientôt renouvelé, se terminera bientôt ou est déjà terminé.
+** Si vous disposez d'un contrat AWS et avez modifié des options de contrat après la date de début, validez vos options de contrat depuis AWS Marketplace.
+** Si vous disposez d'une offre privée Google Cloud, les options de contrat ne sont pas disponibles.
+
+
+--
+
+
+
+
+
+
+== Renommer un abonnement
+
+Vous pouvez renommer un abonnement pour mieux identifier la manière dont votre organisation l'utilise.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez gérer et choisissez *Renommer*.
+
+
+
+
+== Configurer un abonnement avec un identifiant de fournisseur
+
+Les abonnements sont généralement configurés avec les informations d'identification du fournisseur que vous avez créées lors de votre abonnement.  Dans certains cas, vous devrez peut-être reconfigurer un abonnement pour utiliser des informations d'identification différentes afin de modifier la manière dont il est facturé.  Les informations d’identification que vous associez à un abonnement doivent également être associées à un agent.
+
+Le format des informations d’identification dépend de la place de marché que vous utilisez.  Par exemple, les abonnements à la place de marché Azure sont associés au nom de l’abonnement Azure, tandis que les abonnements à la place de marché AWS utilisent l’ID de compte AWS.  Vous pouvez voir une liste des informations d’identification disponibles sur la page Informations d’identification.
+
+L'option Configurer est grisée si vous vous êtes désabonné d'un abonnement.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Sélectionnez le menu d'action dans la ligne correspondant à l'abonnement que vous souhaitez configurer et choisissez *Configurer*.
+. Dans la boîte de dialogue Configurer, choisissez une information d’identification à configurer avec l’abonnement.  Vous ne pouvez choisir que parmi les informations d'identification associées à l'agent actuellement sélectionné.  Si vous ne voyez pas les informations d'identification que vous souhaitez utiliser, essayez de passer à une autre vue d'agent.
+
+
+
+
+== Associer un abonnement à une organisation de la console
+
+L'association d'un abonnement à une organisation garantit que les membres de cette organisation peuvent utiliser cet abonnement pour la facturation.
+
+Vous pouvez limiter l'utilisation de l'abonnement à une organisation spécifique ou partager l'abonnement entre plusieurs organisations.
+
+Vous devez disposer du rôle d’administrateur d’organisation pour associer un abonnement à une organisation.
+
+
+NOTE: La console prend en charge la gestion des identités et des accès (IAM) en mode standard, qui utilise les organisations pour gérer les utilisateurs et les ressources.  Si vous utilisez la console en mode privé ou restreint, vous utilisez un _compte_ de console pour gérer les utilisateurs et les ressources, y compris les abonnements.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Dans la ligne de l'abonnement que vous souhaitez associer, ouvrez le menu d'action et sélectionnez *Associer*.
+. Dans la boîte de dialogue *Associer l'abonnement*, sélectionnez une ou plusieurs organisations à associer à l'abonnement.
+. Sélectionnez *Associer*.
+
+
+
+
+== Afficher les informations d'identification associées à un abonnement
+
+Vous pouvez afficher les informations d'identification d'un abonnement spécifique à partir de la page *Abonnements Marketplace*.  Cela vous permet de vérifier comment l'abonnement est facturé.  Étant donné que les informations d’identification sont liées à l’agent que vous utilisez, vous devez sélectionner l’agent associé à l’abonnement que vous souhaitez afficher.
+
+
+NOTE: Utilisez la liste déroulante Agent dans la barre de navigation supérieure pour changer d’agent si nécessaire.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Sur la ligne contenant l’abonnement dont vous souhaitez afficher les informations d’identification, sélectionnez Afficher.  Si plusieurs informations d'identification sont associées à un abonnement, aucune information d'identification ne peut s'afficher et vous êtes invité à sélectionner un autre agent.
+
+
+
+
+=== Déconfigurer un abonnement
+
+Avant de pouvoir supprimer un abonnement, vous devez le déconfigurer.  Cela efface toutes les données et tous les paramètres associés.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Dans la ligne correspondant à l'abonnement que vous souhaitez déconfigurer, cliquez sur le menu d'action et sélectionnez *Déconfigurer*.
+. Suivez les instructions pour supprimer ou réinitialiser tous les paramètres ou données associés.
+. Attendez que le statut soit mis à jour vers *Non configuré*.
+
+
+
+
+=== Supprimer un abonnement
+
+Lorsque vous vous désabonnez d'un abonnement auprès de votre fournisseur cloud (AWS, Google Cloud ou Azure), la console affiche le statut de l'abonnement comme *Désabonné*.
+
+Vous pouvez supprimer les abonnements *Désabonnés* depuis la console afin qu'ils n'apparaissent plus.
+
+[NOTE]
+====
+Vous ne pouvez supprimer que les abonnements qui sont à la fois *Désabonnés* et *Non configurés*.  Tous les paramètres, données et configurations associés doivent être effacés ou réinitialisés avant la suppression.
+
+Si l'abonnement est toujours configuré, l'option *Supprimer* ne s'affiche pas.  Pour rendre l’option disponible, annulez la configuration de l’abonnement en supprimant tous les paramètres, services ou données associés.
+
+====
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *Abonnements Marketplace*.
+. Dans la ligne correspondant à l'abonnement que vous souhaitez supprimer, ouvrez le menu d'action et sélectionnez *Supprimer*.
++
+Vous ne pouvez supprimer que les abonnements dont le statut est *Désabonné* et *Non configuré*.
+
+. Dans la boîte de dialogue *Supprimer l'abonnement*, confirmez que vous souhaitez supprimer l'abonnement.
+

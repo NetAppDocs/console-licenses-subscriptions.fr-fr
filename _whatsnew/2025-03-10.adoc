@@ -1,0 +1,15 @@
+= Possibilité de supprimer des abonnements
+:allow-uri-read: 
+
+
+
+
+=== Possibilité de supprimer des abonnements
+
+Vous pouvez désormais supprimer les abonnements du portefeuille numérique si vous vous en êtes désabonné.
+
+
+
+=== Afficher la capacité consommée pour les abonnements Marketplace
+
+Lorsque vous consultez les abonnements PAYGO, vous pouvez désormais visualiser la capacité consommée de l'abonnement.

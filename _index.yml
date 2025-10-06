@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Documentation sur les licences et les abonnements
+  summary: Gérez et surveillez vos licences et abonnements dans la console NetApp
+    .
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  lead: Gérez et surveillez vos licences et abonnements dans la console NetApp .
+  tiles:
+  - title: Commencer
+    links:
+    - title: En savoir plus sur les licences et les abonnements
+      url: concept-digital-wallet.html
+  - title: Gérez vos licences
+    links:
+    - title: Gérer les licences basées sur la capacité pour Cloud Volumes ONTAP
+      url: task-manage-capacity-licenses.html
+    - title: Gérer les licences pour les services de données NetApp
+      url: task-manage-data-services-licenses.html
+  - title: Gérez vos abonnements
+    links:
+    - title: Gérer les abonnements et les contrats de la Marketplace
+      url: task-manage-subscriptions.html
+    - title: Gérer les abonnements Keystone
+      url: task-manage-keystone.html
+  - title: Blogs et communauté
+    links:
+    - title: Communauté NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Webinaires sur le cloud
+      url: https://bluexp.netapp.com/events

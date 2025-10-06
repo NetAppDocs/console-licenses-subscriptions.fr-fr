@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
+summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
+---
+= Accepter et activer une offre privée Azure pour la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Acceptez et abonnez-vous à une offre privée Marketplace pour la console NetApp dans le portail Azure.  Configurez les informations d’identification Azure dans la console.
+
+.Avant de commencer
+* Travaillez avec le service commercial NetApp pour créer une offre privée pour votre ID de facturation Azure.
+* Vous disposez des autorisations requises pour accepter une offre privée sur la Place de marché Azure :
++
+** Contrat d'entreprise (CE) : *Administrateur d'entreprise*
+** Contrat client Microsoft (MCA) : *Propriétaire du compte de facturation* ou *Contributeur du compte de facturation*
+
+
+* Vous devez disposer des autorisations requises pour acheter une offre privée sur la Place de marché Azure et créer un abonnement :
++
+** *Propriétaire de l'abonnement* ou *Contributeur de l'abonnement* de l'abonnement Azure utilisé
+
+
+* Une seule personne peut à la fois accepter et acheter l’offre privée si elle dispose des autorisations nécessaires.
+
+
+
+
+== Accepter et souscrire à l'offre privée dans le portail Azure
+
+Un abonnement Azure ne peut être associé qu’à un seul abonnement Marketplace. Si vous souhaitez utiliser deux abonnements Marketplace différents pour les charges de travail dans le même abonnement Azure, vous devez créer deux comptes de console distincts, un pour chaque abonnement.  Si vous disposez de plusieurs instances Cloud Volumes ONTAP et que vous souhaitez répartir la facturation entre différents abonnements, créez des comptes de console distincts pour chaque abonnement.
+
+[IMPORTANT]
+====
+Vous devez compléter toutes les étapes pour accepter et activer votre offre privée. Le fait de sauter des étapes peut entraîner des problèmes d'activation ou une double charge.
+
+Si vous constatez des divergences dans les conditions, les prix ou les détails de l’offre, ou si vous n’êtes pas sûr de l’offre à accepter, n’acceptez pas l’offre. Contactez votre équipe commerciale NetApp .
+
+Accepter et activer l'offre plusieurs fois entraîne une double facturation.
+
+====
+.Étapes
+. Cliquez sur le lien d’offre privée fourni par votre équipe commerciale NetApp et connectez-vous. Si aucun lien n’est disponible, connectez-vous directement au portail Azure.
+. Recherchez ou sélectionnez *Marketplace* parmi les services Azure.
+. Sur la page Marketplace, cliquez sur *Gestion des offres privées* sous la section *Gestion*.
+. Cliquez sur *Afficher + accepter* pour consulter les détails de l'offre privée.
++
+.. Vérifiez que les *détails du plan*, la *durée* et le *tarif* sont corrects.
+.. Si les détails sont incorrects, ne vous abonnez pas. Contactez votre équipe commerciale NetApp pour corriger l'offre.
+
+
+. Confirmez et cliquez sur *Accepter l'offre privée*.
+. Cliquez sur *Acheter* pour terminer le processus d'achat.
++
+[NOTE]
+====
+Si le bouton *Acheter* n'est pas disponible, confirmez que vous disposez des autorisations d'achat requises. Si vous ne le faites pas, copiez et partagez le lien de la fenêtre d’achat avec une personne de votre organisation autorisée.
+
+====
+. Dans le flux de travail des achats :
++
+.. Sélectionnez l’*abonnement Azure* à utiliser.
+.. Sélectionnez le *Groupe de ressources* dans lequel l'abonnement sera créé.
+.. Saisissez un *Nom* pour le nouvel abonnement.
+
+
+. En option, définissez des *Tags* (pour le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination).
+. Cliquez sur *Vérifier et s'abonner*, validez les détails, puis cliquez sur *S'abonner*.
+. Une fois l'abonnement créé avec succès, cliquez sur *Configurer le compte maintenant*. Cela vous redirige vers la console NetApp pour terminer la configuration.
++
+[NOTE]
+====
+L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si la page a été fermée avant que vous cliquiez sur *Configurer le compte maintenant*, revenez au service dans le portail Azure. L'abonnement s'affiche comme *Configuration en attente*. Sélectionnez-le pour continuer la configuration.
+
+====
+. Vous êtes redirigé vers https://console.netapp.com[] et invité à se connecter.
+. Après vous être connecté, vous êtes redirigé vers https://console.netapp.com/licenses/overview[] . Vous êtes invité à :
++
+.. Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.
+.. Sélectionnez les *Comptes* de la console qui doivent avoir accès à cet abonnement.
+.. En option, vous pouvez activer *Remplacer l'abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans un compte Console.
++
+[NOTE]
+====
+*** Cette option de remplacement est limitée à un seul compte Console.
+*** Pour associer plusieurs comptes de console au même abonnement Marketplace, configurez les comptes supplémentaires manuellement.
+
+
+====
+
+
+. Cliquez sur *Associer* puis sur *Terminé*.
+
+
+[IMPORTANT]
+====
+Il est nécessaire de compléter l'affectation de l'abonnement dans la console pour activer l'achat et appliquer des tarifs réduits.
+
+====
+
+
+== Configurer l’abonnement avec les informations d’identification Azure
+
+. Dans la console, accédez à *Gouvernance > Licences et abonnements* et sélectionnez l'onglet *Abonnements Marketplace*.
+. Valider les détails de l'abonnement :
++
+.. Localisez l’abonnement Marketplace que vous avez créé.
+.. Développez la ligne pour examiner les détails et confirmer que l’abonnement est associé à votre compte Console.
+
+
+. Cliquez sur le *menu à trois points* à côté de l'abonnement et sélectionnez *Configurer*.
+. Sélectionnez l’abonnement *Azure* approprié et cliquez sur *Configurer*.
+
+
+Les frais de la Marketplace pour ces informations d’identification Azure sont désormais facturés via l’abonnement de la Marketplace. Pour les contrats annuels, l'utilisation de ces informations d'identification est comptabilisée dans le contrat annuel.
+
+[IMPORTANT]
+====
+Répétez les étapes 1 à 4 pour chaque information d’identification Azure de votre compte de console que vous souhaitez associer à l’abonnement.
+
+* Pour associer des informations d'identification d'une autre organisation de la console, utilisez la liste déroulante *Organisation* pour changer d'organisation et répétez les étapes.
+* Pour associer les informations d'identification d'un autre agent, utilisez la liste déroulante *Agent* pour changer et répétez les étapes.
+
+
+====

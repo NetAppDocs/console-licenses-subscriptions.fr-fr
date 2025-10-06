@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
+summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
+---
+= Accepter et configurer une offre privée AWS Marketplace pour la console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Acceptez une offre privée Marketplace pour la console NetApp dans la console AWS et configurez les informations d’identification AWS dans la console.
+
+.Avant de commencer
+* Travaillez avec le service commercial NetApp pour créer une offre privée et obtenir le lien d'activation.
+* Assurez-vous de disposer des autorisations AWS Marketplace requises :
++
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html["Consultation et souscription à une offre privée"]
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["Validation des autorisations de l'acheteur"]
+
+
+
+
+
+
+== Accepter l'offre privée dans la console AWS
+
+La finalisation de l'abonnement dans la console est nécessaire pour activer l'achat et appliquer des tarifs réduits.
+
+[NOTE]
+====
+Vous devez compléter toutes les étapes pour activer votre offre privée. Sauter des étapes peut entraîner des erreurs de facturation. Accepter et activer l'offre plusieurs fois entraîne une double facturation.
+
+====
+.Étapes
+. Cliquez sur le lien d’activation de l’offre privée de votre équipe commerciale NetApp . Le lien devrait ressembler à ce qui suit :
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+ If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
++
+** Utilisation des politiques gérées par AWS : *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* ou *AWSMarketplaceFullAccess*
+** Utilisation de politiques IAM personnalisées : `aws-marketplace:ListPrivateListings` et `aws-marketplace:ViewSubscriptions`
+
+
+. Vous êtes redirigé vers AWS Marketplace pour voir l'offre privée.
++
+[NOTE]
+====
+Les offres privées sont créées en plus des annonces publiques. Utilisez le menu déroulant *Sélection d'offres* pour basculer entre les offres publiques et privées.
+
+====
+. Vérifiez les détails de l’offre privée et confirmez qu’ils correspondent à votre accord. S’ils sont incorrects, ne les acceptez pas. Contactez votre équipe de compte NetApp .
++
+[NOTE]
+====
+Il existe deux types d’offres privées :
+
+** *Utilisation à la demande*
++
+*** Informations sur les prix
+*** Mentions légales
+
+
+** *Contracter*
++
+*** Durée et dates
+*** Paramètres de renouvellement
+*** Options de contrat
+*** Prix total du contrat
+
+
+
+
+Pour les offres contractuelles, indiquez le nombre d'unités convenues. Pour Cloud Volumes ONTAP, assurez-vous de sélectionner la licence appropriée avant de vous abonner.
+
+====
+. Pour accepter l’offre privée, procédez comme suit :
++
+.. Pour une utilisation à la demande, cliquez sur *S'abonner*.
+.. Pour les offres de contrat, saisissez le nombre d'unités pour chaque service et cliquez sur *Créer un contrat*.
+
+
+. Après acceptation, une bannière confirme l'abonnement et fournit les instructions d'inscription.
+. Cliquez sur *Configurer votre compte*. Cela redirige vers la console NetApp pour configurer l'abonnement.
++
+[NOTE]
+====
+Si vous avez accepté l'offre mais n'avez pas terminé l'inscription, revenez à la page du produit. Pour les listes de contrats, cliquez sur *Afficher les options d'achat* pour afficher l'offre, puis sélectionnez *Configurer votre compte*.
+
+====
+. Sign in à https://console.netapp.com[] avec votre compte Console.
+. Après vous être connecté, accédez à https://console.netapp.com/licenses/overview[] . Vous êtes invité à :
++
+.. Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.
+.. Sélectionnez la console *Comptes* avec accès à l'abonnement.
+.. [Facultatif] Activez *Remplacer l'abonnement existant* pour remplacer un abonnement existant pour un compte.
++
+[NOTE]
+====
+*** Le remplacement s'applique uniquement à un seul compte Console.
+*** Pour associer plusieurs comptes au même abonnement, configurez manuellement des comptes supplémentaires.
+*** Si les informations d’identification n’ont jamais été associées à un abonnement, associez-les manuellement comme décrit dans la section suivante.
+
+
+====
+
+
+. Cliquez sur *Associer* puis sur *Terminé*.
+
+
+[IMPORTANT]
+====
+Il est nécessaire de compléter la tâche d'abonnement dans la console pour appliquer des tarifs réduits.
+
+====
+
+
+== Configurer l'abonnement avec les informations d'identification AWS
+
+. Dans la console, accédez à *Gouvernance > Licences et abonnements* et sélectionnez l'onglet *Abonnements Marketplace*.
+. Localisez l'abonnement créé précédemment. Développez la ligne pour confirmer qu’elle est associée à votre compte Console.
++
+[NOTE]
+====
+En raison des limitations d'AWS Marketplace, certains détails des offres privées ne sont pas exposés en dehors de la console AWS. Si un champ affiche `N/A` , vérifiez les informations directement dans la console AWS.
+
+====
+. Cliquez sur le menu à trois points à côté de l'abonnement et sélectionnez *Configurer*.
+. Sélectionnez les *informations d’identification du compte AWS* appropriées et cliquez sur *Configurer*.
+
+
+[NOTE]
+====
+Les frais de la place de marché pour ces informations d'identification sont facturés à l'aide de l'abonnement à la place de marché. Pour les contrats annuels, les coûts sont comptabilisés dans l'utilisation du contrat.
+
+====
+[IMPORTANT]
+====
+Répétez les étapes 1 à 4 pour chaque information d’identification AWS de votre compte de console que vous souhaitez associer à l’abonnement.
+
+* Pour les informations d'identification dans d'autres organisations de la console, utilisez la liste déroulante *Organisation* et répétez les étapes.
+* Pour les informations d'identification d'autres agents, utilisez la liste déroulante *Agent* et répétez les étapes.
+
+
+====

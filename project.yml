@@ -1,0 +1,58 @@
+---
+settings:
+  name: Licenses and subscriptions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentation sur les licences et les abonnements
+    url: "/index.html"
+  - title: Notes de version
+    entries:
+    - title: Quoi de neuf
+      url: "/whats-new.html"
+  - title: Commencer
+    entries:
+    - title: En savoir plus sur
+      url: "/concept-digital-wallet.html"
+  - title: Utiliser des licences et des abonnements
+    entries:
+    - title: Utiliser le tableau de bord Aperçu
+      url: "/task-homepage.html"
+    - title: Gérer les licences
+      entries:
+      - title: Gérer les licences directes
+        url: "/task-manage-data-services-licenses.html"
+      - title: Gérer les licences pour Cloud Volumes ONTAP
+        entries:
+        - title: Licences basées sur la capacité pour Cloud Volumes ONTAP
+          url: "/task-manage-capacity-licenses.html"
+        - title: Licences basées sur des nœuds pour Cloud Volumes ONTAP
+          url: "/task-manage-node-based-licenses.html"
+    - title: Gérer les offres privées
+      entries:
+      - title: Gérer une offre privée AWS
+        url: "/task-manage-private-aws.html"
+      - title: Gérer une offre privée Azure
+        url: "/task-manage-private-azure.html"
+      - title: Gérer une offre privée Google Cloud
+        url: "/task-manage-private-google-cloud.html"
+    - title: Gérer les abonnements à la Marketplace
+      url: "/task-manage-subscriptions.html"
+    - title: Gérer les abonnements Keystone
+      url: "/task-manage-keystone.html"
+    - title: Connaissances et soutien
+      entries:
+      - title: Inscrivez-vous pour obtenir de l'aide
+        url: "/task-support-registration.html"
+      - title: Obtenir de l'aide
+        url: "/task-get-help.html"
+    - title: Mentions légales
+      url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

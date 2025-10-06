@@ -1,0 +1,35 @@
+= 
+:allow-uri-read: 
+
+
+Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
+
+Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , vous recevez un e-mail contenant le numéro de série et les détails de la licence.  Utilisez le numéro de série pour obtenir le fichier de licence si les licences n'apparaissent pas automatiquement dans la console.
+
+.Étapes
+. Trouvez l'ID de votre compte console :
++
+.. Dans le coin supérieur droit de la console, sélectionnezimage:icon-settings-option.png["L'icône des paramètres qui s'affiche en haut à droite de la console Web."] > *Gestion des identités et des accès*.
+.. Sur la page Organisation, recherchez votre ID de compte et copiez-le.
++
+Si aucun ID de compte n'est répertorié et que vous n'avez qu'un ID d'organisation, copiez les huit premiers caractères de l'ID d'organisation et ajoutez-le à *account-*
+
++
+Par exemple, s’il s’agit de l’ID de votre organisation :
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Votre identifiant de compte serait :
+
++
+compte-ea10e1c6
+
+
+
+. Sign in à https://mysupport.netapp.com["Site de support NetApp"^] et sélectionnez *Systèmes > Licences logicielles*.
+. Saisissez le numéro de série de votre licence.
+. Dans la colonne *Clé de licence*, sélectionnez *Obtenir le fichier de licence NetApp *.
+. Saisissez l'ID de votre compte Console (appelé ID de locataire sur le site d'assistance) et sélectionnez *Soumettre* pour télécharger le fichier de licence.
+

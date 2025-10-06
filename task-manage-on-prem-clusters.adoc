@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: Affichez les détails du contrat pour chacun de vos clusters ONTAP sur site.  Si vous n’avez pas encore découvert de cluster dans la console, vous pouvez également les découvrir. 
+---
+= Gérer les licences pour ONTAP sur site
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez afficher les détails du contrat pour chacun de vos clusters ONTAP sur site dans la console.  Si vous n’avez pas découvert de cluster, vous pouvez également les découvrir.
+
+.Avant de commencer
+La console affiche des détails sur les clusters ONTAP locaux que vous avez découverts en tant que systèmes ou qui sont associés à un compte de site de support NetApp que vous avez ajouté à la console.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez comment découvrir un cluster ONTAP sur site"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre organisation ou à votre compte Console"^]
+
+
+
+
+== Afficher les informations du cluster et les détails du contrat
+
+Affichez l’état des contrats matériels et logiciels de vos clusters ONTAP sur site afin de pouvoir les renouveler avant leur expiration.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *On-Premises ONTAP*.
++
+Les dates d’expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.
+
++
+Si vous êtes invité à saisir d'abord les informations d'identification de votre compte NetApp Support Site (NSS), sélectionnez *Ajouter un compte NSS*.  Après avoir ajouté le compte, les clusters associés à ce compte NSS apparaissent.
+
+. Si le contrat est proche de la date d'expiration ou a expiré, vous pouvez sélectionner l'icône de chat en bas à droite de la console pour demander une prolongation du contrat.
+. Pour voir plus de détails, sélectionnezimage:button_down_caret.png["Une icône en forme de curseur vers le bas"] pour étendre les informations du cluster.
+
+
+
+
+== Découvrir les clusters
+
+Si vous n’avez pas découvert de cluster ONTAP sur site en tant que système, vous pouvez le faire à partir de la console.  Une fois découvert, un cluster est disponible en tant que système afin que vous puissiez le gérer.
+
+.Avant de commencer
+Vous devez comprendre vos options de découverte et de gestion (découverte à l’aide d’un agent de console ou découverte directe sans agent) ainsi que les exigences de découverte.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["En savoir plus sur les options et les exigences de découverte"^] .
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Sélectionnez *On-Premises ONTAP*.
++
+Vos clusters ONTAP s'affichent avec un statut indiquant s'ils ont été découverts dans la console.
+
++
+Si vous êtes invité à saisir d'abord les informations d'identification de votre compte NetApp Support Site (NSS), sélectionnez *Ajouter un compte NSS*.  Après avoir ajouté le compte, les clusters associés à ce compte NSS apparaissent.
+
+. Sélectionnez *Découvrir* pour le cluster que vous souhaitez gérer via la console.
+. Sur la page _Discover ONTAP Cluster_, saisissez le mot de passe du compte utilisateur administrateur et sélectionnez *Discover*.
+
+
+
+NOTE: L'adresse IP de gestion du cluster est renseignée en fonction des informations de votre compte de site de support NetApp .
+
+.Résultat
+La console découvre le cluster et l’ajoute en tant que système à la page Systèmes.  Le statut du cluster passe à *Découvert* dans la page _On-Premises ONTAP_.  Notez que le nom du système est le nom du cluster.
+
+Vous pouvez maintenant commencer à gérer le cluster.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un agent de console"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Apprenez à gérer les clusters découverts directement"^]
+
