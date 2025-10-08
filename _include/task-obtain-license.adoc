@@ -2,7 +2,7 @@
 :allow-uri-read: 
 
 
-Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
+Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas accès à Internet (installations en mode privé).
 
 Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , vous recevez un e-mail contenant le numéro de série et les détails de la licence.  Utilisez le numéro de série pour obtenir le fichier de licence si les licences n'apparaissent pas automatiquement dans la console.
 

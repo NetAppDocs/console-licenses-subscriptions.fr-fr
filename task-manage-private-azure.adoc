@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
 ---
-= Accepter et activer une offre privée Azure pour la console NetApp
+= Accepter et activer une offre privée Azure pour la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Gérez votre processus d"offre privée de bout en bout général et sp
 
 
 [role="lead"]
-Acceptez et abonnez-vous à une offre privée Marketplace pour la console NetApp dans le portail Azure.  Configurez les informations d’identification Azure dans la console.
+Acceptez et abonnez-vous à une offre privée Marketplace pour la NetApp Console dans le portail Azure.  Configurez les informations d’identification Azure dans la console.
 
 .Avant de commencer
 * Travaillez avec le service commercial NetApp pour créer une offre privée pour votre ID de facturation Azure.
@@ -74,7 +74,7 @@ Si le bouton *Acheter* n'est pas disponible, confirmez que vous disposez des aut
 
 . En option, définissez des *Tags* (pour le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination).
 . Cliquez sur *Vérifier et s'abonner*, validez les détails, puis cliquez sur *S'abonner*.
-. Une fois l'abonnement créé avec succès, cliquez sur *Configurer le compte maintenant*. Cela vous redirige vers la console NetApp pour terminer la configuration.
+. Une fois l'abonnement créé avec succès, cliquez sur *Configurer le compte maintenant*. Cela vous redirige vers la NetApp Console pour terminer la configuration.
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Il est nécessaire de compléter l'affectation de l'abonnement dans la console p
 
 == Configurer l’abonnement avec les informations d’identification Azure
 
-. Dans la console, accédez à *Gouvernance > Licences et abonnements* et sélectionnez l'onglet *Abonnements Marketplace*.
+. Dans la console, accédez à *Gouvernance > Licenses and subscriptions* et sélectionnez l'onglet *Abonnements Marketplace*.
 . Valider les détails de l'abonnement :
 +
 .. Localisez l’abonnement Marketplace que vous avez créé.
@@ -126,7 +126,7 @@ Les frais de la Marketplace pour ces informations d’identification Azure sont 
 ====
 Répétez les étapes 1 à 4 pour chaque information d’identification Azure de votre compte de console que vous souhaitez associer à l’abonnement.
 
-* Pour associer des informations d'identification d'une autre organisation de la console, utilisez la liste déroulante *Organisation* pour changer d'organisation et répétez les étapes.
+* Pour associer des informations d'identification d'une autre organisation de console, utilisez la liste déroulante *Organisation* pour changer d'organisation et répétez les étapes.
 * Pour associer les informations d'identification d'un autre agent, utilisez la liste déroulante *Agent* pour changer et répétez les étapes.
 
 

@@ -30,7 +30,7 @@ La console affiche des détails sur les clusters ONTAP locaux que vous avez déc
 Affichez l’état des contrats matériels et logiciels de vos clusters ONTAP sur site afin de pouvoir les renouveler avant leur expiration.
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez *On-Premises ONTAP*.
 +
 Les dates d’expiration du contrat logiciel et du contrat matériel apparaissent sur la ligne de chaque cluster.
@@ -54,7 +54,7 @@ Vous devez comprendre vos options de découverte et de gestion (découverte à l
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["En savoir plus sur les options et les exigences de découverte"^] .
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez *On-Premises ONTAP*.
 +
 Vos clusters ONTAP s'affichent avec un statut indiquant s'ils ont été découverts dans la console.

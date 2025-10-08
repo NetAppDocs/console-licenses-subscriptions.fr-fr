@@ -4,7 +4,7 @@ permalink: task-manage-private-google-cloud.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, google cloud 
 summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
 ---
-= Accepter et configurer une offre privée Google Cloud pour la console NetApp
+= Accepter et configurer une offre privée Google Cloud pour la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,7 +13,7 @@ summary: 'Gérez votre processus d"offre privée de bout en bout général et sp
 
 
 [role="lead"]
-Acceptez une offre privée Marketplace pour la liste de la console NetApp dans la console Google Cloud.  Configurez les informations d’identification Google Cloud dans la console.
+Acceptez une offre privée Marketplace pour la liste de la NetApp Console dans la console Google Cloud.  Configurez les informations d’identification Google Cloud dans la console.
 
 .Avant de commencer
 * Travaillez avec les ventes NetApp pour créer une offre privée. Votre équipe commerciale doit vous fournir le lien de l'offre.
@@ -50,7 +50,7 @@ Si vous disposez déjà d'un abonnement PAYGO actif ou d'une offre privée modif
 . Vous êtes redirigé vers Google Cloud Marketplace où vous pouvez consulter les détails de l'offre :
 +
 .. **Compte de facturation**
-.. **Produit** : Console NetApp
+.. **Produit** : NetApp Console
 .. **Détails de l'offre**
 .. **Tarifs**
 +
@@ -64,7 +64,7 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 . Confirmez que les informations sont exactes, acceptez les conditions et cliquez sur **Accepter**.
 . Une icône de chargement apparaît lors de la création de l'abonnement.
 . Une fois l'abonnement créé avec succès, une fenêtre contextuelle s'affiche : *Votre demande de commande a été envoyée à NetApp, Inc.*
-. Cliquez sur **S'INSCRIRE AVEC NETAPP, Inc.**. Vous êtes redirigé vers la console NetApp pour terminer la configuration de votre abonnement. Si l’offre privée a été acceptée par une autre personne de votre organisation :
+. Cliquez sur **S'INSCRIRE AVEC NETAPP, Inc.**. Vous êtes redirigé vers la NetApp Console pour terminer la configuration de votre abonnement. Si l’offre privée a été acceptée par une autre personne de votre organisation :
 +
 .. Dans Google Cloud Marketplace, accédez à **Commandes**.
 .. Localisez l'offre avec le statut **En attente**.
@@ -94,7 +94,7 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 
 == Associer l'abonnement aux informations d'identification Google Cloud
 
-. Dans la console, accédez à **Gouvernance > Licences et abonnements** et sélectionnez l'onglet **Abonnements Marketplace**.
+. Dans la console, accédez à **Gouvernance > Licenses and subscriptions** et sélectionnez l'onglet **Abonnements Marketplace**.
 . Valider les détails de l'abonnement :
 +
 .. Localisez l'abonnement créé lors du processus d'acceptation.
@@ -125,7 +125,7 @@ Les frais Marketplace pour ces informations d'identification Google Cloud sont d
 ====
 Répétez les étapes 1 à 5 pour chaque identifiant Google Cloud de votre compte Console que vous souhaitez associer à l’abonnement Marketplace.
 
-* Pour associer les informations d'identification d'un autre compte de console, utilisez la liste déroulante **Compte** pour changer de compte et répétez les étapes.
+* Pour associer les informations d’identification d’un autre compte de console, utilisez la liste déroulante **Compte** pour changer de compte et répétez les étapes.
 * Pour associer les informations d’identification d’un autre agent, utilisez la liste déroulante **Agent** et répétez les étapes.
 
 

@@ -40,7 +40,7 @@ NOTE: Bien que vous puissiez mettre à jour et supprimer des licences depuis le 
 link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^] . link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^] .
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez *Aperçu*.
 . Sélectionnez *Afficher* pour le service de données concerné (y compris Cloud Volumes ONTAP) pour afficher les détails et gérer les licences et les abonnements.
 +
@@ -65,7 +65,7 @@ link:task-data-services-licenses.html["En savoir plus sur la gestion des licence
 
 Vous pouvez afficher les problèmes de licence et d’abonnement qui doivent être résolus.  Les problèmes incluent les licences et les abonnements qui expirent ou atteignent leur capacité.
 
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez *Aperçu*.
 . Sélectionnez *Résoudre* pour la mosaïque *Nécessite une action* pour afficher les problèmes qui doivent être réglés.  Si *Résoudre* ne s'affiche pas, aucun problème ne nécessite d'action pour le moment.
 . À partir de la page *Action requise*, sélectionnez l'onglet *Licences* ou l'onglet *Abonnements*.

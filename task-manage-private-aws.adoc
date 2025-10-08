@@ -4,7 +4,7 @@ permalink: task-manage-private-aws.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
 summary: 'Gérez votre processus d"offre privée de bout en bout général et spécifique à Hyperscaler ainsi que vos guides d"acceptation et d"activation des services intelligents NetApp pour AWS, Azure et Google Cloud.' 
 ---
-= Accepter et configurer une offre privée AWS Marketplace pour la console NetApp
+= Accepter et configurer une offre privée AWS Marketplace pour la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Gérez votre processus d"offre privée de bout en bout général et sp
 
 
 [role="lead"]
-Acceptez une offre privée Marketplace pour la console NetApp dans la console AWS et configurez les informations d’identification AWS dans la console.
+Acceptez une offre privée Marketplace pour la NetApp Console dans la console AWS et configurez les informations d’identification AWS dans la console.
 
 .Avant de commencer
 * Travaillez avec le service commercial NetApp pour créer une offre privée et obtenir le lien d'activation.
@@ -86,7 +86,7 @@ Pour les offres contractuelles, indiquez le nombre d'unités convenues. Pour Clo
 
 
 . Après acceptation, une bannière confirme l'abonnement et fournit les instructions d'inscription.
-. Cliquez sur *Configurer votre compte*. Cela redirige vers la console NetApp pour configurer l'abonnement.
+. Cliquez sur *Configurer votre compte*. Cela redirige vers la NetApp Console pour configurer l'abonnement.
 +
 [NOTE]
 ====
@@ -122,7 +122,7 @@ Il est nécessaire de compléter la tâche d'abonnement dans la console pour app
 
 == Configurer l'abonnement avec les informations d'identification AWS
 
-. Dans la console, accédez à *Gouvernance > Licences et abonnements* et sélectionnez l'onglet *Abonnements Marketplace*.
+. Dans la console, accédez à *Gouvernance > Licenses and subscriptions* et sélectionnez l'onglet *Abonnements Marketplace*.
 . Localisez l'abonnement créé précédemment. Développez la ligne pour confirmer qu’elle est associée à votre compte Console.
 +
 [NOTE]

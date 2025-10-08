@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
 keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, keystone flex, bluexp, netapp console 
-summary: Gérez vos abonnements Keystone dans la console NetApp en activant les abonnements à utiliser avec Cloud Volumes ONTAP et en demandant des modifications de la capacité engagée pour les niveaux de service de votre abonnement.  La demande de capacité supplémentaire pour un niveau de service fournit davantage de stockage pour les systèmes Cloud Volumes ONTAP . 
+summary: Gérez vos abonnements Keystone dans la NetApp Console en activant les abonnements à utiliser avec Cloud Volumes ONTAP et en demandant des modifications de la capacité engagée pour les niveaux de service de votre abonnement.  La demande de capacité supplémentaire pour un niveau de service fournit davantage de stockage pour les systèmes Cloud Volumes ONTAP . 
 ---
 = Gérer les abonnements Keystone
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Gérez vos abonnements Keystone dans la console NetApp en activant les 
 
 
 [role="lead"]
-Gérez vos abonnements Keystone dans la console NetApp en activant les abonnements à utiliser avec Cloud Volumes ONTAP et en demandant des modifications de la capacité engagée pour les niveaux de service de votre abonnement.  La demande de capacité supplémentaire pour un niveau de service fournit davantage de stockage pour les systèmes Cloud Volumes ONTAP .
+Gérez vos abonnements Keystone dans la NetApp Console en activant les abonnements à utiliser avec Cloud Volumes ONTAP et en demandant des modifications de la capacité engagée pour les niveaux de service de votre abonnement.  La demande de capacité supplémentaire pour un niveau de service fournit davantage de stockage pour les systèmes Cloud Volumes ONTAP .
 
 NetApp Keystone est un service d'abonnement flexible et évolutif qui offre une expérience de cloud hybride aux clients qui préfèrent les dépenses d'exploitation aux dépenses d'investissement ou à la location.
 
@@ -27,7 +27,7 @@ https://www.netapp.com/services/keystone/["En savoir plus sur Keystone"^]
 Avant de pouvoir utiliser et gérer les abonnements Keystone dans la console, vous devez contacter NetApp pour autoriser votre compte de console avec vos abonnements Keystone .
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez * Abonnements Keystone *.
 . Si vous voyez la page *Bienvenue sur NetApp Keystone*, envoyez un e-mail à l'adresse indiquée sur la page.
 +
@@ -40,10 +40,10 @@ Un représentant NetApp traitera votre demande en autorisant votre compte à acc
 
 == Lier un abonnement
 
-Une fois que NetApp a autorisé votre compte, vous pouvez lier les abonnements Keystone à utiliser avec Cloud Volumes ONTAP.  Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP .
+Une fois que NetApp a autorisé votre compte, vous pouvez lier les abonnements Keystone à utiliser avec Cloud Volumes ONTAP. Cette action permet aux utilisateurs de sélectionner l'abonnement comme méthode de facturation pour les nouveaux systèmes Cloud Volumes ONTAP .
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez * Abonnements Keystone *.
 . Pour l'abonnement que vous souhaitez lier, cliquez surimage:icon-action.png["Une icône composée de trois points côte à côte"] et sélectionnez *Lien*.
 
@@ -58,7 +58,7 @@ L'abonnement est désormais lié à votre organisation ou à votre compte Consol
 Si vous souhaitez modifier la capacité engagée pour les niveaux de service de votre abonnement, vous pouvez envoyer une demande à NetApp directement depuis la console.  La demande de capacité supplémentaire pour un niveau de service fournit davantage de stockage pour les systèmes Cloud Volumes ONTAP .
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez * Abonnements Keystone *.
 . Pour l'abonnement dont vous souhaitez ajuster la capacité, cliquez surimage:icon-action.png["Une icône composée de trois points côte à côte"] et sélectionnez *Afficher les détails et modifier*.
 . Saisissez la capacité engagée demandée pour un ou plusieurs abonnements.
@@ -80,10 +80,10 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == Dissocier un abonnement
 
-Si vous ne souhaitez plus utiliser un abonnement Keystone avec la console, vous pouvez dissocier l'abonnement.  Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
+Si vous ne souhaitez plus utiliser un abonnement Keystone avec la console, vous pouvez dissocier l'abonnement. Notez que vous ne pouvez dissocier qu'un abonnement qui n'est pas associé à un abonnement Cloud Volumes ONTAP existant.
 
 .Étapes
-. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*.
+. Dans le menu de la NetApp Console , sélectionnez *Gouvernance > Licenses and subscriptions*.
 . Sélectionnez * Keystone*.
 . Pour l'abonnement que vous souhaitez dissocier, cliquez surimage:icon-action.png["Une icône composée de trois points côte à côte"] et sélectionnez *Dissocier*.
 

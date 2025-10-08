@@ -12,7 +12,7 @@ Le BlueXP digital wallet identifie désormais les abonnements Google Cloud Marke
 
 === Répartition de l'utilisation de la charge
 
-Vous pouvez désormais savoir ce qui vous est facturé lorsque vous êtes abonné à des licences basées sur la capacité.  Les types de rapports d'utilisation suivants sont disponibles en téléchargement à partir du BlueXP digital wallet.  Les rapports d'utilisation fournissent des détails sur la capacité de vos abonnements et vous indiquent comment vous êtes facturé pour les ressources de vos abonnements Cloud Volumes ONTAP .  Les rapports téléchargeables peuvent être facilement partagés avec d’autres.
+Vous pouvez désormais savoir ce qui vous est facturé lorsque vous êtes abonné à des licences basées sur la capacité. Les types de rapports d'utilisation suivants sont disponibles en téléchargement à partir du BlueXP digital wallet. Les rapports d'utilisation fournissent des détails sur la capacité de vos abonnements et vous indiquent comment vous êtes facturé pour les ressources de vos abonnements Cloud Volumes ONTAP . Les rapports téléchargeables peuvent être facilement partagés avec d’autres.
 
 * Utilisation du package Cloud Volumes ONTAP
 * Utilisation de haut niveau
