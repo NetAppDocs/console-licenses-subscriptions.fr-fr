@@ -21,30 +21,113 @@ NOTE: La page *Licences directes* répertorie toutes les licences.  Si vous souh
 
 Les instructions sur cette page fournissent des informations qui s’appliquent à chaque service.  Pour des informations plus spécifiques sur les licences pour ces services, reportez-vous aux pages suivantes :
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["Configurer les licences pour la BlueXP backup and recovery"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurer les licences pour la BlueXP disaster recovery"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Configurer une licence pour la BlueXP ransomware protection"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Configurer les licences pour la BlueXP tiering"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Configurer les licences pour Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["Configurer les licences pour NetApp Backup and Recovery"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["Configurer les licences pour NetApp Disaster Recovery"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["Configurer les licences pour NetApp Ransomware Resilience"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["Configurer les licences pour NetApp Cloud Tiering"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["Configurer les licences pour Cloud Volumes ONTAP"^]
 
 
 
 
 == Obtenir un fichier de licence
 
-Directive non résolue dans <stdin> - include::_include/task-obtain-license.adoc[]
+Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
+
+Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , vous recevez un e-mail contenant le numéro de série et les détails de la licence.  Utilisez le numéro de série pour obtenir le fichier de licence si les licences n'apparaissent pas automatiquement dans la console.
+
+.Étapes
+. Trouvez l'ID de votre compte console :
++
+.. Dans le coin supérieur droit de la console, sélectionnezimage:icon-settings-option.png["L'icône des paramètres qui s'affiche en haut à droite de la console Web."] > *Gestion des identités et des accès*.
+.. Sur la page Organisation, recherchez votre ID de compte et copiez-le.
++
+Si aucun ID de compte n'est répertorié et que vous n'avez qu'un ID d'organisation, copiez les huit premiers caractères de l'ID d'organisation et ajoutez-le à *account-*
+
++
+Par exemple, s’il s’agit de l’ID de votre organisation :
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+Votre identifiant de compte serait :
+
++
+compte-ea10e1c6
+
+
+
+. Sign in à https://mysupport.netapp.com["Site de support NetApp"^] et sélectionnez *Systèmes > Licences logicielles*.
+. Saisissez le numéro de série de votre licence.
+. Dans la colonne *Clé de licence*, sélectionnez *Obtenir le fichier de licence NetApp *.
+. Saisissez l'ID de votre compte Console (appelé ID de locataire sur le site d'assistance) et sélectionnez *Soumettre* pour télécharger le fichier de licence.
+
 
 
 
 == Ajouter une licence
 
-Directive non résolue dans <stdin> - include::_include/task-add-license.adoc[]
+Les informations de licence s'affichent automatiquement dans la section **Licences et abonnements** lorsque le compte de console NetApp associé à la licence est également un compte de site de support NetApp et dispose d'un accès Internet.  Si vous avez utilisé un compte de console qui n'est pas associé à votre compte NSS, vous devrez ajouter manuellement une licence.
+
+Vous pouvez ajouter la licence dans la console soit en saisissant le numéro de série et le compte NSS associé, soit en téléchargeant le fichier de licence NetApp (NLF).  Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
+
+Après avoir acheté une licence auprès de votre représentant commercial NetApp , NetApp vous envoie un e-mail contenant le numéro de série et des informations de licence supplémentaires.  Vous aurez besoin de ce numéro de série pour ajouter ou mettre à jour la licence correspondante dans la console.
+
+
+NOTE: Pour saisir le numéro de série, commencez par https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajoutez votre compte de site de support NetApp à la console"^] .  Il s’agit du compte du site de support NetApp autorisé à accéder au numéro de série.
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Gouvernance > Licences et abonnements*, puis sélectionnez l'onglet *Licences directes*.
+. Sélectionnez *Ajouter une licence*.
+. Dans la boîte de dialogue *Ajouter une licence*, saisissez les informations de licence et sélectionnez *Ajouter une licence* :
++
+** Si vous avez le numéro de série et connaissez votre compte NSS, sélectionnez *Entrer le numéro de série* et saisissez ces informations.
++
+Si vous avez saisi un numéro de série, vous devez également sélectionner le compte du site de support NetApp autorisé à accéder au numéro de série.
+
++
+Si votre compte de site de support NetApp n'est pas disponible dans la liste déroulante, https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajouter le compte NSS à la console"^]
+
+** Si vous disposez du fichier de licence (requis lors de l'utilisation de la console NetApp en mode privé), sélectionnez l'option *Télécharger le fichier de licence* et suivez les invites pour joindre le fichier.
+
+
+
 
 
 
 == Mettre à jour une licence
 
-Directive non résolue dans <stdin> - include::_include/task-update-license.adoc[]
+La console vous avertit lorsque la durée de votre licence approche de l'expiration ou lorsque votre capacité sous licence approche de la limite.  Mettez à jour votre licence avant son expiration pour éviter les interruptions de vos services de données NetApp ou Cloud Volumes ONTAP.
+
+Après avoir acheté une capacité supplémentaire auprès de NetApp ou prolongé la durée de votre licence, la console met automatiquement à jour la licence lorsque les deux conditions sont remplies :
+
+* Votre compte Console est associé à un compte de site de support NetApp
+* La console dispose d'un accès Internet
+
+
+Si votre compte Console n'est pas associé à votre compte NSS, ou si la Console fonctionne en mode privé sans accès Internet, vous devez mettre à jour manuellement la licence.
+
+Vous pouvez mettre à jour manuellement une licence en utilisant l'une ou l'autre méthode :
+
+* Saisissez le numéro de série et le compte NSS associé
+* Téléchargez le fichier de licence NetApp (ou les fichiers pour une paire Cloud Volumes ONTAP HA)
+
+
+Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , vous recevez un e-mail contenant le numéro de série et les détails de la licence.  Utilisez ce numéro de série pour mettre à jour la licence.
+
+
+NOTE: Pour saisir le numéro de série, commencez par https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajoutez votre compte de site de support NetApp à la console"^] .  Ce compte NSS doit être autorisé pour accéder au numéro de série.
+
+.Étapes
+. Contactez votre représentant NetApp pour acheter une nouvelle licence.
++
+Une fois le paiement effectué et la licence enregistrée sur le site de support NetApp , la console met automatiquement à jour la licence.  La page *Licences directes* reflète le changement dans un délai de 5 à 10 minutes.
+
+. Si la console ne peut pas mettre à jour automatiquement la licence (par exemple, lorsqu'elle fonctionne en mode privé), obtenez un fichier de licence NetApp auprès du support et téléchargez-le manuellement.<<obtain-license,Apprenez comment obtenir un fichier de licence.>>
+. Dans l'onglet *Licences directes*, sélectionnezimage:icon-action.png["Plus d'icônes"] pour le numéro de série que vous mettez à jour et sélectionnez *Mettre à jour la licence*.
+. Sur la page *Mettre à jour la licence*, téléchargez le fichier de licence et sélectionnez *Mettre à jour la licence*.
+
 
 
 
