@@ -1,0 +1,40 @@
+= 
+:allow-uri-read: 
+
+
+--
+barre latérale : lien permanent de la barre latérale : concept-billing-preferences-terms.html mots-clés : licence, licences, abonnements, résumé : « Les licences et les abonnements vous permettent de gérer et de surveiller les licences NetApp Console , les abonnements NetApp Marketplace et NetApp Keystone. » ---
+
+= Termes et définitions :hardbreaks: :nofooter: :icons: font :linkattrs: :imagesdir: ./media/
+
+[role="lead"]
+Les préférences de facturation déterminent la manière dont NetApp Console gère les paiements, les factures et le renouvellement de vos licences et abonnements.  Vous définissez vos préférences à l'un des deux niveaux suivants :
+
+* *Global* — s'applique aux licences directes, aux abonnements Marketplace et aux abonnements Keystone .
+* *Par abonnement* — s'applique uniquement à une plateforme de vente spécifique ou à un contrat de licence directe.
+
+
+La source de facturation peut être la suivante :
+
+* *Abonnements Marketplace* — La facturation s'effectue via AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace.  Vous pouvez choisir le compte de facturation, la région et les options de renouvellement proposés par la plateforme cloud.
+* *Licences directes* — La facturation s'effectue via NetApp.  Vous gérez les clés de licence, les contacts de facturation et le renouvellement automatique dans la NetApp Console.
+* * Abonnements Keystone * — La facturation s'effectue via votre contrat Keystone .  Vous gérez les destinataires des factures et les étiquettes de centre de coûts dans la NetApp Console.
+
+
+== Autorisations Vous devez disposer du rôle *Administrateur de compte* ou *Administrateur de facturation* pour modifier les préférences de facturation.  Les opérateurs peuvent consulter les préférences mais ne peuvent pas les modifier.
+
+== Définir les préférences de facturation
+
+Les préférences de facturation vous permettent de : - imposer une liste de contacts de facturation unique pour tous les services, - aligner l'utilisation sur les centres de coûts, - gérer les notifications de renouvellement automatique et d'expiration, - garantir que les nouveaux systèmes Cloud Volumes ONTAP (CVO) héritent du compte de facturation approprié.
+
+= Champs de facturation :page-role: référence
+
+== Champs de la place de marché * *Fournisseur de place de marché* — AWS, Azure ou Google Cloud.  * *Numéro de compte de facturation / ID d'abonnement* — Le compte de facturation cloud à facturer.  * *Durée du contrat* — Durée du contrat et modalités de renouvellement.
+
+= Options et définitions de facturation :page-role: référence
+
+== Conditions et options * ** Licences NetApp en premier ** — Factures sur les licences NetApp actives.  L'utilisation supplémentaire se déplace vers le marché.  * **Abonnements Marketplace uniquement** — Toute utilisation est facturée via les contrats Marketplace.  * **PAYGO (Paiement à l'utilisation)** — Abonnement flexible facturé selon l'utilisation réelle.  * **Contrat annuel** — Abonnement à durée déterminée à une plateforme de marché.  * **Renouvellement automatique** — Le contrat est automatiquement renouvelé à son expiration.  * **Configuration CVO personnalisée** — Mode avancé pour mapper plusieurs abonnements par hyperscaler.  * **Licence directe** — Licence gérée par NetApp utilisée avant la disponibilité sur le marché.  * **Hyperscaler** — Fournisseur AWS, Azure ou Google Cloud.  * **Boîte de dialogue de confirmation des modifications** — Apparaît avant l'application des mises à jour afin d'éviter toute modification accidentelle de la facturation.
+
+== Chemins de configuration typiques | Scénario | Option de facturation recommandée | |-----------|-----------------------------| | Utilisation de la capacité NetApp achetée | Licences NetApp en premier | | Utilisation des contrats Marketplace uniquement | Abonnements Marketplace uniquement | | Facturation de plusieurs projets auprès d'un seul fournisseur cloud | Activer la configuration CVO personnalisée | | Retour à la facturation par défaut | Désactiver la configuration CVO personnalisée |
+
+--

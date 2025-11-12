@@ -110,41 +110,11 @@ Si vous avez accepté l'offre mais n'avez pas terminé l'inscription, revenez à
 ====
 
 
-. Cliquez sur *Associer* puis sur *Terminé*.
+. Cliquez sur **Devenir associé**.
+. Remplissez le formulaire pour associer l'abonnement à votre organisation Console.  Ensuite, cliquez sur **Associer**.
+. Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
+. Consultez les options d'abonnement disponibles sur la plateforme.
+. Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.
+. Sélectionnez **Enregistrer les modifications**.
+. Répétez ces étapes autant de fois que nécessaire, s'il existe plusieurs abonnements chez plusieurs fournisseurs d'accès Internet.
 
-
-[IMPORTANT]
-====
-Il est nécessaire de compléter la tâche d'abonnement dans la console pour appliquer des tarifs réduits.
-
-====
-
-
-== Configurer l'abonnement avec les informations d'identification AWS
-
-. Dans la console, accédez à *Gouvernance > Licenses and subscriptions* et sélectionnez l'onglet *Abonnements Marketplace*.
-. Localisez l'abonnement créé précédemment. Développez la ligne pour confirmer qu’elle est associée à votre compte Console.
-+
-[NOTE]
-====
-En raison des limitations d'AWS Marketplace, certains détails des offres privées ne sont pas exposés en dehors de la console AWS. Si un champ affiche `N/A` , vérifiez les informations directement dans la console AWS.
-
-====
-. Cliquez sur le menu à trois points à côté de l'abonnement et sélectionnez *Configurer*.
-. Sélectionnez les *informations d’identification du compte AWS* appropriées et cliquez sur *Configurer*.
-
-
-[NOTE]
-====
-Les frais de la place de marché pour ces informations d'identification sont facturés à l'aide de l'abonnement à la place de marché. Pour les contrats annuels, les coûts sont comptabilisés dans l'utilisation du contrat.
-
-====
-[IMPORTANT]
-====
-Répétez les étapes 1 à 4 pour chaque information d’identification AWS de votre compte de console que vous souhaitez associer à l’abonnement.
-
-* Pour les informations d'identification dans d'autres organisations de la console, utilisez la liste déroulante *Organisation* et répétez les étapes.
-* Pour les informations d'identification d'autres agents, utilisez la liste déroulante *Agent* et répétez les étapes.
-
-
-====

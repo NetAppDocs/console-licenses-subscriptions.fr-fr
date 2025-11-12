@@ -133,4 +133,9 @@ Une fois le paiement effectué et la licence enregistrée sur le site de support
 
 == Afficher l'état de la licence
 
-Directive non résolue dans <stdin> - include::_include/task-view-license-status.adoc[]
+Pour gérer les licences, vous pouvez regrouper les licences en fonction du nom du service.  Cela vous permet de voir toutes les licences liées à un service spécifique.  Vous pouvez développer une ligne pour afficher des informations détaillées sur chaque licence liée au service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.  Les licences sont automatiquement regroupées par nom de service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.
+
+.Étapes
+. Dans le menu Console, sélectionnez *Gouvernance* > *Portefeuille numérique*, puis sélectionnez l'onglet *Licences directes*.
+. Cliquez sur une ligne de nom de service pour la développer.  Ceci affiche toutes les licences liées à ce service.  Chaque ligne développée affiche des informations détaillées sur les licences, notamment l'ID de licence, le numéro de série, la capacité et la date d'expiration.
+

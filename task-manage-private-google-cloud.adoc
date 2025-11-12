@@ -87,57 +87,11 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 ====
 
 
-. Cliquez sur **Associer** puis sur **Terminé**.
-
-
-
-
-== Associer l'abonnement aux informations d'identification Google Cloud
-
-. Dans la console, accédez à **Gouvernance > Licenses and subscriptions** et sélectionnez l'onglet **Abonnements Marketplace**.
-. Valider les détails de l'abonnement :
-+
-.. Localisez l'abonnement créé lors du processus d'acceptation.
-.. Vérifiez que le plan correct est affiché.
-.. Développez la ligne pour confirmer l’association de l’offre privée.
-
-
-
-
-[NOTE]
-====
-En raison des limitations de Google Cloud Marketplace, certains champs peuvent s'afficher `N/A` . Ces informations ne sont disponibles que dans la console Google Cloud.
-
-====
-. [Facultatif] Pour renommer l'abonnement :
-+
-.. Cliquez sur le **menu à trois points** à côté de l’abonnement.
-.. Sélectionnez **Renommer l'abonnement**.
-
-
-. Cliquez à nouveau sur le **menu à trois points** et sélectionnez **Configurer**.
-. Sélectionnez le compte Google Cloud approprié **Credential** et cliquez sur **Configurer**.
-
-
-Les frais Marketplace pour ces informations d'identification Google Cloud sont désormais facturés via l'abonnement Marketplace. Pour les contrats annuels, l'utilisation de ces informations d'identification est comptabilisée dans le contrat annuel.
-
-[IMPORTANT]
-====
-Répétez les étapes 1 à 5 pour chaque identifiant Google Cloud de votre compte Console que vous souhaitez associer à l’abonnement Marketplace.
-
-* Pour associer les informations d’identification d’un autre compte de console, utilisez la liste déroulante **Compte** pour changer de compte et répétez les étapes.
-* Pour associer les informations d’identification d’un autre agent, utilisez la liste déroulante **Agent** et répétez les étapes.
-
-
-====
-
-
-== Afficher l'utilisation de Google Cloud
-
-Pour afficher l’état et l’utilisation du crédit Google Cloud :
-
-. Dans la console Google Cloud, accédez à **Cloud Marketplace**.
-. Cliquez sur **Vos commandes**.
-. Dans la liste déroulante **Sélectionner un compte de facturation**, choisissez le compte de facturation associé à votre offre privée.
-. Recherchez votre offre privée dans le tableau, cliquez sur le **menu à trois points** et sélectionnez **Afficher le crédit**.
+. Cliquez sur **Devenir associé**.
+. Remplissez le formulaire pour associer l'abonnement à votre organisation Console.  Ensuite, cliquez sur **Associer**.
+. Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
+. Consultez les options d'abonnement disponibles sur la plateforme.
+. Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.
+. Sélectionnez **Enregistrer les modifications**.
+. Répétez ces étapes autant de fois que nécessaire, s'il existe plusieurs abonnements chez plusieurs fournisseurs d'accès Internet.
 
