@@ -18,7 +18,6 @@ Les préférences de facturation déterminent la manière dont vous gérez les p
 
 * Les *abonnements Marketplace* correspondent à des contrats de marketplace cloud (AWS, Azure ou Google Cloud) où les frais d'utilisation sont facturés via un compte hyperscaler.
 * Les *licences directes* désignent les licences achetées directement auprès de NetApp, gérées dans la NetApp Console via des clés de licence, des destinataires de factures et des options de renouvellement.
-* *Les abonnements Keystone * sont gérés dans le cadre de votre contrat Keystone , où les destinataires des factures et les étiquettes de centre de coûts sont gérés via la même interface.
 
 
 Vous pouvez configurer la manière dont votre organisation alloue et paie les services en fonction de votre modèle d'approvisionnement.
@@ -92,7 +91,6 @@ Vous pouvez choisir le mode de facturation en fonction de la stratégie d'approv
 * *Contrat annuel* — Garantit une durée d'abonnement définie.
 * *Renouvellement automatique* — Permet la reconduction automatique des licences ou des contrats de la plateforme lorsqu'ils expirent.  La désactivation de cette option nécessite un renouvellement manuel pour éviter toute interruption de service.
 * *Configuration CVO personnalisée* — Permet d'associer plusieurs abonnements à des places de marché à un seul hyperscaler.  Cela peut s'avérer utile lorsque différentes unités commerciales ou différents projets nécessitent des comptes de facturation distincts au sein du même environnement cloud.
-* *Boîte de dialogue de confirmation des modifications* — Apparaît avant l'application des mises à jour de facturation, permettant aux administrateurs d'examiner et de confirmer les modifications.  Cette mesure de sécurité permet d'éviter les modifications de configuration accidentelles qui pourraient rediriger les frais vers le mauvais compte.
 
 
 
