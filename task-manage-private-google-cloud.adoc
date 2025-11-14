@@ -93,5 +93,7 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 . Consultez les options d'abonnement disponibles sur la plateforme.
 . Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.
 . Sélectionnez **Enregistrer les modifications**.
-. Répétez ces étapes autant de fois que nécessaire, s'il existe plusieurs abonnements chez plusieurs fournisseurs d'accès Internet.
+. Répétez ces étapes autant de fois que nécessaire, s'il existe plusieurs abonnements auprès de plusieurs hyperscalers.
 
+
+Pour plus d'informations sur les abonnements à la plateforme et la facturation directe des licences, consultez la sectionlink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"] .

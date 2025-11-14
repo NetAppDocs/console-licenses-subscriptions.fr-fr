@@ -14,7 +14,7 @@ summary: Configurez les préférences de facturation dans la NetApp Console pour
 
 
 [role="lead"]
-Vous pouvez configurer et gérer les préférences de facturation dans la NetApp Console afin de contrôler la manière dont l'utilisation de la capacité, les renouvellements et les factures sont appliqués aux comptes de votre organisation.  Les préférences de facturation déterminent si les frais d'utilisation proviennent des licences NetApp , des contrats de la place de marché cloud ou des accords Keystone .
+Vous pouvez configurer et gérer les préférences de facturation dans la NetApp Console afin de contrôler la manière dont l'utilisation de la capacité, les renouvellements et les factures sont appliqués aux comptes de votre organisation. Les préférences de facturation déterminent si les frais d'utilisation proviennent des licences NetApp , des contrats de la place de marché cloud ou des accords Keystone .
 
 .Avant de commencer
 * Vous avez le rôle d'*Administrateur de facturation* ou d'*Administrateur d'organisation*.
@@ -29,7 +29,7 @@ Vous pouvez configurer et gérer les préférences de facturation dans la NetApp
 Vous pouvez choisir comment la console applique les frais d'utilisation selon les sources de facturation.  Cela détermine quels comptes sont facturés en premier et comment les renouvellements sont gérés.
 
 .Étapes
-. Dans la NetApp Console, sélectionnez *Gouvernance > Licenses and subscriptions*.
+. Dans la NetApp Console, sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Préférences de facturation*.
 . Choisissez l'un des modes de facturation suivants :
 +
@@ -58,7 +58,7 @@ NOTE: Modifier le mode de facturation modifie la façon dont les frais de servic
 La configuration CVO personnalisée vous permet d'attribuer plusieurs abonnements à la marketplace sous le même hyperscaler.  Utilisez ce mode si votre organisation gère différents comptes de facturation pour des unités commerciales ou des environnements distincts.
 
 .Étapes
-. Dans la NetApp Console, sélectionnez *Gouvernance > Licenses and subscriptions*.
+. Dans la NetApp Console, sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Préférences de facturation*.
 . Sous **Abonnements Marketplace**, activez *Configuration CVO personnalisée*.
 . Sélectionnez **Enregistrer les modifications**.
@@ -82,7 +82,7 @@ Vous pouvez modifier les détails de configuration de la place de marché pour a
 . Sélectionnez l'affichage pour les éléments suivants :
 +
 ** *Nom de l'abonnement à la place de marché*
-** *Projet cloud* (Google Cloud uniquement)
+** *Projet cloud*
 ** *Type d'abonnement* (Annuel ou à la carte)
 
 
