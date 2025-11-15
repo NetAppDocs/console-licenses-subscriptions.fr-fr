@@ -106,4 +106,4 @@ L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si 
 . Répétez ces étapes autant de fois que nécessaire, s'il existe plusieurs abonnements auprès de plusieurs hyperscalers.
 
 
-Pour plus d'informations sur les abonnements à la plateforme et la facturation directe des licences, consultez la sectionlink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"] .
+Pour plus d'informations sur les abonnements à la plateforme et la facturation directe des licences, consultez la section link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"].

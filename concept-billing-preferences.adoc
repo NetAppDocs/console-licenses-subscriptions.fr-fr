@@ -14,7 +14,7 @@ summary: 'Découvrez comment les licences et les abonnements définissent la man
 
 
 [role="lead"]
-Les préférences de facturation déterminent la manière dont vous gérez les paiements, les factures et le renouvellement des licences et abonnements actifs de votre organisation.  Vous pouvez appliquer ces préférences globalement, afin qu'elles affectent toutes les relations de facturation au sein de votre organisation, ou au niveau de l'abonnement individuel lorsqu'un contrat spécifique requiert sa propre configuration.
+Les préférences de facturation vous permettent de déterminer comment gérer les paiements et le renouvellement de vos licences et abonnements actifs. Vous pouvez appliquer ces préférences globalement, afin qu'elles affectent toutes les relations de facturation, ou au niveau de l'abonnement individuel lorsqu'un contrat spécifique requiert sa propre configuration.
 
 * Les *abonnements Marketplace* correspondent à des contrats de marketplace cloud (AWS, Azure ou Google Cloud) où les frais d'utilisation sont facturés via un compte hyperscaler.
 * Les *licences directes* désignent les licences achetées directement auprès de NetApp, gérées dans la NetApp Console via des clés de licence, des destinataires de factures et des options de renouvellement.
@@ -38,7 +38,12 @@ Par exemple, les préférences de facturation globales peuvent unifier votre lis
 
 Les préférences de facturation sont configurées dans la section * Licenses and subscriptions* de la NetApp Console.
 
-À partir de là, vous pouvez : - Définir les préférences de facturation de votre organisation - Activer la configuration CVO personnalisée pour le mappage avancé - Modifier ou mettre à jour les détails de votre abonnement à la place de marché
+À partir de là, vous pouvez :
+
+* Définissez les préférences de facturation de votre organisation
+* Activez la configuration CVO personnalisée pour la cartographie avancée
+* Modifier ou mettre à jour les détails de l'abonnement à la plateforme
+
 
 
 
