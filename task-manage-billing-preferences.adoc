@@ -17,9 +17,9 @@ summary: Configurez les préférences de facturation dans la NetApp Console pour
 Vous pouvez configurer et gérer les préférences de facturation dans la NetApp Console afin de contrôler la manière dont l'utilisation de la capacité, les renouvellements et les factures sont appliqués aux comptes de votre organisation. Les préférences de facturation déterminent si les frais d'utilisation proviennent des licences NetApp , des contrats de la place de marché cloud ou des accords Keystone .
 
 .Avant de commencer
-* Vous avez le rôle d'*Administrateur de facturation* ou d'*Administrateur d'organisation*.
+* Vous avez accès au rôle *Administrateur*.
 * Tous les abonnements pertinents aux plateformes de vente en ligne sont liés à votre organisation.
-* Vous avez examiné la configuration existante dans * Licenses and subscriptions*.
+* Vous avez examiné la configuration existante pour les *licences et les abonnements*.
 
 
 
@@ -68,7 +68,7 @@ La configuration CVO personnalisée vous permet d'attribuer plusieurs abonnement
 Vous pouvez désormais attribuer des abonnements spécifiques au Marketplace à des instances Cloud Volumes ONTAP individuelles sous le même hyperscaler.
 
 
-WARNING: Une fois cette option activée, la configuration CVO personnalisée ne peut plus être annulée depuis l'onglet **Préférences de facturation**.  La désactivation de cette option réinitialise la facturation CVO à la configuration de facturation standard pour vos services de données.
+WARNING: Une fois cette option activée, la configuration CVO personnalisée ne peut plus être annulée à partir des **préférences de facturation**. La désactivation de cette option réinitialise la facturation CVO à la configuration de facturation standard pour vos services de données.
 
 
 

@@ -26,8 +26,32 @@ Vous pouvez configurer la manière dont votre organisation alloue et paie les se
 
 == Autorisations
 
-Seuls les utilisateurs ayant le rôle *Administrateur de compte* ou *Administrateur de facturation* peuvent modifier les préférences de facturation.  Ces rôles garantissent que seuls les utilisateurs autorisés peuvent modifier les contacts de facturation, les centres de coûts ou les paramètres de renouvellement qui affectent les données de facturation de l'organisation.  Les utilisateurs ayant le rôle d'*Opérateur* peuvent consulter les préférences existantes, mais n'ont pas l'autorisation de les modifier.
+La gestion des licences et des abonnements au sein de la NetApp Console est contrôlée par les rôles des utilisateurs. Ces rôles offrent différents niveaux d'accès, permettant ou limitant certaines actions que les utilisateurs peuvent effectuer pour cette fonctionnalité.
 
+[cols="2,5"]
+|===
+| Rôle | Description 
+
+
+| *Admin*  a| 
+Les utilisateurs disposant de ce rôle ont un contrôle total sur les licences et les abonnements. Les utilisateurs administrateurs peuvent :
+
+* Consultez toutes les licences et tous les abonnements.
+* Ajouter de nouvelles licences.
+* Associer les abonnements aux comptes.
+* Modifier les détails de la licence existante.
+* Supprimez les licences ou dissociez les abonnements.
+
+
+
+
+| *Téléspectateur*  a| 
+Les utilisateurs possédant ce rôle ont un accès en lecture seule. Les utilisateurs de la visionneuse peuvent :
+
+* Consultez toutes les licences et tous les abonnements.
+
+
+|===
 
 
 == Préférences de facturation
