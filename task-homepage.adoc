@@ -37,7 +37,7 @@ Par exemple, les administrateurs chargés de gérer les ressources Cloud Volumes
 
 NOTE: Bien que vous puissiez mettre à jour et supprimer des licences depuis le tableau de bord, vous ne pouvez pas ajouter une nouvelle licence ou un nouvel abonnement.
 
-link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^] . link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^] .
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"]. link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"].
 
 .Étapes
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
@@ -55,7 +55,7 @@ Chaque tuile fournit un aperçu graphique de la capacité.  Vous pouvez consulte
 Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *Aperçu* pour un service spécifique.  Vous ne pouvez ajouter des licences ou des abonnements qu'à partir de l'onglet *Licences directes* ou de l'onglet *Abonnements Marketplace*, respectivement.
 
 +
-link:task-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]
 
 
 
@@ -71,6 +71,6 @@ Vous pouvez afficher les problèmes de licence et d’abonnement qui doivent êt
 . À partir de la page *Action requise*, sélectionnez l'onglet *Licences* ou l'onglet *Abonnements*.
 . Utilisez le menu actions pour résoudre le problème.
 +
-link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"^] . link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"^] .
+link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"]. link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"].
 
 

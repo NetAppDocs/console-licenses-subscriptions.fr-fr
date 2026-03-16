@@ -47,9 +47,9 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 Vous pouvez gérer les licences et les abonnements pour les services suivants dans la console :
 
-* https://docs.netapp.com/us-en/console-backup-recovery/index.html["Sauvegarde et récupération"^]
-* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["Reprise après sinistre"^](BYOL uniquement)
-* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["Résilience aux ransomwares"^]
-* https://docs.netapp.com/us-en/console-tiering/index.html["Hiérarchisation du cloud"^]
+* https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["Sauvegarde et récupération"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/index.html["Reprise après sinistre"^] (BYOL uniquement)
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/index.html["Résilience aux ransomwares"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/index.html["Hiérarchisation du cloud"^]
 

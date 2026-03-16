@@ -16,7 +16,7 @@ summary: 'Découvrez comment les licences et les abonnements définissent la man
 [role="lead"]
 Les préférences de facturation vous permettent de déterminer comment gérer les paiements et le renouvellement de vos licences et abonnements actifs. Vous pouvez appliquer ces préférences globalement, afin qu'elles affectent toutes les relations de facturation, ou au niveau de l'abonnement individuel lorsqu'un contrat spécifique requiert sa propre configuration.
 
-* Les *abonnements Marketplace* correspondent à des contrats de marketplace cloud (AWS, Azure ou Google Cloud) où les frais d'utilisation sont facturés via un compte hyperscaler.
+* *Marketplace subscriptions* correspondent à des contrats de place de marché cloud (AWS, Azure ou Google Cloud) où les frais d'utilisation sont facturés via un compte de fournisseur de cloud
 * Les *licences directes* désignent les licences achetées directement auprès de NetApp, gérées dans la NetApp Console via des clés de licence, des destinataires de factures et des options de renouvellement.
 
 
@@ -65,7 +65,7 @@ Les préférences de facturation sont configurées dans la section * Licenses an
 À partir de là, vous pouvez :
 
 * Définissez les préférences de facturation de votre organisation
-* Activez la configuration CVO personnalisée pour la cartographie avancée
+* Activer le mappage avancé des instances Cloud Volumes ONTAP aux abonnements Marketplace
 * Modifier ou mettre à jour les détails de l'abonnement à la plateforme
 
 
@@ -119,7 +119,7 @@ Vous pouvez choisir le mode de facturation en fonction de la stratégie d'approv
 * *PAYGO (Paiement à l'utilisation)* — Facturation uniquement pour la consommation réelle.
 * *Contrat annuel* — Garantit une durée d'abonnement définie.
 * *Renouvellement automatique* — Permet la reconduction automatique des licences ou des contrats de la plateforme lorsqu'ils expirent.  La désactivation de cette option nécessite un renouvellement manuel pour éviter toute interruption de service.
-* *Configuration CVO personnalisée* — Permet d'associer plusieurs abonnements à des places de marché à un seul hyperscaler.  Cela peut s'avérer utile lorsque différentes unités commerciales ou différents projets nécessitent des comptes de facturation distincts au sein du même environnement cloud.
+* *Custom Cloud Volumes ONTAP configuration* — Permet d'associer plusieurs abonnements de places de marché à un fournisseur de cloud. Cela peut s'avérer utile lorsque différentes unités commerciales ou différents projets nécessitent des comptes de facturation distincts au sein du même environnement cloud.
 
 
 
@@ -143,6 +143,6 @@ Les exemples suivants illustrent comment différentes configurations de facturat
 
 | Vous souhaitez revenir à une configuration de facturation simple à source unique | *Désactiver la configuration CVO personnalisée* 
 |===
-Prenons par exemple une organisation qui combine à la fois des licences NetApp directes et des abonnements via la marketplace.  Une configuration typique définirait * les licences NetApp en premier* comme mode de facturation par défaut afin d'utiliser la capacité prépayée avant la facturation via le marché.  Ensuite, dans la *configuration CVO personnalisée*, chaque hyperscaler (AWS, Azure, Google Cloud) se verrait attribuer son ID d'abonnement correspondant.
+Prenons l'exemple d'une organisation qui combine à la fois des licences directes NetApp et des abonnements marketplace. Une configuration typique définirait *NetApp licenses first* comme mode de facturation par défaut afin d'utiliser la capacité prépayée avant la facturation marketplace. Ensuite, sous *Custom CVO configuration*, chaque fournisseur de cloud (AWS, Azure, Google Cloud) se verrait attribuer son identifiant d'abonnement correspondant.
 
 Après avoir enregistré ces paramètres, les administrateurs peuvent consulter les correspondances sous * Licenses and subscriptions* pour vérifier que chaque service pointe vers le compte approprié.  Pour une validation supplémentaire, ils peuvent comparer les données d'utilisation de la NetApp Console avec les tableaux de bord de facturation cloud et ajuster les étiquettes ou les contacts des centres de coûts selon les besoins afin de maintenir la cohérence des rapports.
