@@ -85,8 +85,8 @@ L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si 
 . Après vous être connecté, vous êtes redirigé vers https://console.netapp.com/licenses/overview[] . Vous êtes invité à :
 +
 .. Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.
-.. Sélectionnez les *Comptes* de la console qui doivent avoir accès à cet abonnement.
-.. En option, vous pouvez activer *Remplacer l'abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans un compte Console.
+.. Sélectionnez les *Organizations* de NetApp Console qui doivent avoir accès à cet abonnement.
+.. Vous pouvez, si vous le souhaitez, activer *Remplacer l'abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans une organisation Console.
 +
 [NOTE]
 ====
