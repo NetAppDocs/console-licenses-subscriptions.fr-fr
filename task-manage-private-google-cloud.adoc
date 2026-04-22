@@ -46,7 +46,7 @@ Si vous disposez déjà d'un abonnement PAYGO actif ou d'une offre privée modif
 
 ====
 .Étapes
-. Cliquez sur le lien d’activation de l’offre privée fourni par votre équipe commerciale NetApp . Le lien devrait ressembler à ce qui suit :
+. Sélectionnez le lien d'activation de l'offre privée fourni par votre équipe commerciale NetApp. Le lien devrait ressembler à ce qui suit :
 `https://console.cloud.google.com/marketplace/private-offers/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee`
 . Vous êtes redirigé vers Google Cloud Marketplace où vous pouvez consulter les détails de l'offre :
 +
@@ -62,14 +62,14 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 ====
 
 
-. Confirmez que les informations sont exactes, acceptez les conditions et cliquez sur **Accepter**.
+. Veuillez confirmer l'exactitude des informations, accepter les conditions et sélectionner **Accepter**.
 . Une icône de chargement apparaît lors de la création de l'abonnement.
 . Une fois l'abonnement créé avec succès, une fenêtre contextuelle s'affiche : *Votre demande de commande a été envoyée à NetApp, Inc.*
-. Cliquez sur **S'INSCRIRE AVEC NETAPP, Inc.**. Vous êtes redirigé vers la NetApp Console pour terminer la configuration de votre abonnement. Si l’offre privée a été acceptée par une autre personne de votre organisation :
+. Sélectionnez **REGISTER WITH NETAPP, Inc.**. Vous êtes redirigé vers la NetApp Console pour terminer la configuration de votre abonnement. Si l'offre privée a été acceptée par une autre personne de votre organisation :
 +
 .. Dans Google Cloud Marketplace, accédez à **Commandes**.
 .. Localisez l'offre avec le statut **En attente**.
-.. Cliquez sur le menu à trois points et sélectionnez **S'inscrire auprès de NetApp, Inc.**
+.. Sélectionnez le menu à trois points et choisissez **S'inscrire auprès de NetApp, Inc.**
 
 
 . Vous êtes redirigé vers `https://console.netapp.com` et invité à se connecter.
@@ -88,8 +88,8 @@ Examinez attentivement les détails du plan, la durée et les prix. Si quelque c
 ====
 
 
-. Cliquez sur **Devenir associé**.
-. Remplissez le formulaire pour associer l'abonnement à votre organisation Console.  Ensuite, cliquez sur **Associer**.
+. Sélectionnez **Associate**.
+. Remplissez le formulaire pour associer l'abonnement à votre organisation Console. Sélectionnez **Associer**.
 . Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
 . Consultez les options d'abonnement disponibles sur la plateforme.
 . Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.

@@ -6,5 +6,5 @@ Pour gérer les licences, vous pouvez regrouper les licences en fonction du nom 
 
 .Étapes
 . Dans le menu Console, sélectionnez *Administration* > * Licenses and subscriptions*, puis sélectionnez l'onglet *Licences directes*.
-. Cliquez sur une ligne de nom de service pour la développer.  Ceci affiche toutes les licences liées à ce service.  Chaque ligne développée affiche des informations détaillées sur les licences, notamment l'ID de licence, le numéro de série, la capacité et la date d'expiration.
+. Sélectionnez une ligne de nom de service pour la développer. Cela affiche toutes les licences associées à ce service. Chaque ligne développée affiche des informations détaillées sur les licences, y compris l'identifiant de licence, le numéro de série, la capacité et la date d'expiration.
 

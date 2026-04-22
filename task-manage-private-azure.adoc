@@ -48,17 +48,17 @@ Accepter et activer l'offre plusieurs fois entraîne une double facturation.
 
 ====
 .Étapes
-. Cliquez sur le lien d’offre privée fourni par votre équipe commerciale NetApp et connectez-vous. Si aucun lien n’est disponible, connectez-vous directement au portail Azure.
+. Sélectionnez le lien de l’offre privée fourni par votre équipe commerciale NetApp et connectez-vous. Si aucun lien n’est disponible, connectez-vous directement au portail Azure.
 . Recherchez ou sélectionnez *Marketplace* parmi les services Azure.
-. Sur la page Marketplace, cliquez sur *Gestion des offres privées* sous la section *Gestion*.
-. Cliquez sur *Afficher + accepter* pour consulter les détails de l'offre privée.
+. Sur la page Marketplace, sélectionnez *Gestion des offres privées* dans la section *Gestion*.
+. Sélectionnez *Voir + accepter* pour consulter les détails de l'offre privée.
 +
 .. Vérifiez que les *détails du plan*, la *durée* et le *tarif* sont corrects.
 .. Si les détails sont incorrects, ne vous abonnez pas. Contactez votre équipe commerciale NetApp pour corriger l'offre.
 
 
-. Confirmez et cliquez sur *Accepter l'offre privée*.
-. Cliquez sur *Acheter* pour terminer le processus d'achat.
+. Confirmez et sélectionnez *Accepter l'offre privée*.
+. Sélectionnez *Acheter* pour finaliser le processus d'achat.
 +
 [NOTE]
 ====
@@ -73,12 +73,12 @@ Si le bouton *Acheter* n'est pas disponible, confirmez que vous disposez des aut
 
 
 . En option, définissez des *Tags* (pour le produit, l'emplacement du site, la définition de la charge de travail ou la convention de dénomination).
-. Cliquez sur *Vérifier et s'abonner*, validez les détails, puis cliquez sur *S'abonner*.
-. Une fois l'abonnement créé avec succès, cliquez sur *Configurer le compte maintenant*. Cela vous redirige vers la NetApp Console pour terminer la configuration.
+. Sélectionnez *Review and subscribe*, validez les informations, puis sélectionnez *Subscribe*.
+. Une fois l'abonnement créé, sélectionnez *Configurer le compte maintenant*. Vous serez alors redirigé vers la NetApp Console pour finaliser la configuration.
 +
 [NOTE]
 ====
-L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si la page a été fermée avant que vous cliquiez sur *Configurer le compte maintenant*, revenez au service dans le portail Azure. L'abonnement s'affiche comme *Configuration en attente*. Sélectionnez-le pour continuer la configuration.
+L'automatisation côté Azure peut prendre entre 30 secondes et 5 minutes pour se terminer. Si vous avez fermé la page avant de sélectionner *Configurer le compte maintenant*, retournez au service dans le portail Azure. L'abonnement s'affiche comme *Configuration en attente*. Sélectionnez-le pour poursuivre la configuration.
 
 ====
 . Vous êtes redirigé vers https://console.netapp.com[] et invité à se connecter.
@@ -86,7 +86,7 @@ L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si 
 +
 .. Saisissez un *Nom d'affichage* pour l'abonnement Marketplace.
 .. Sélectionnez les *Organizations* de NetApp Console qui doivent avoir accès à cet abonnement.
-.. Vous pouvez, si vous le souhaitez, activer *Remplacer l'abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans une organisation Console.
+.. Vous pouvez activer l’option *Remplacer l’abonnement existant* pour remplacer automatiquement un abonnement Marketplace existant dans une organisation Console.
 +
 [NOTE]
 ====
@@ -97,8 +97,8 @@ L’automatisation côté Azure peut prendre entre 30 secondes et 5 minutes. Si 
 ====
 
 
-. Cliquez sur **Devenir associé**.
-. Remplissez le formulaire pour associer l'abonnement à votre organisation Console.  Ensuite, cliquez sur **Associer**.
+. Sélectionnez **Associate**.
+. Remplissez le formulaire pour associer l'abonnement à votre organisation Console. Sélectionnez **Associer**.
 . Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
 . Consultez les options d'abonnement disponibles sur la plateforme.
 . Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.

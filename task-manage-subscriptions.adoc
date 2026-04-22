@@ -132,7 +132,7 @@ NOTE: La console prend en charge la gestion des identités et des accès (IAM) e
 .Étapes
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
-. Dans la ligne de l'abonnement que vous souhaitez associer, ouvrez le menu d'action et sélectionnez *Associer*.
+. Dans la ligne correspondant à l'abonnement que vous souhaitez associer, ouvrez le menu Actions puis sélectionnez *Associer*.
 . Dans la boîte de dialogue *Associer l'abonnement*, sélectionnez une ou plusieurs organisations à associer à l'abonnement.
 . Sélectionnez *Associer*.
 
@@ -161,7 +161,7 @@ Avant de pouvoir supprimer un abonnement, vous devez le déconfigurer.  Cela eff
 .Étapes
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
-. Dans la ligne correspondant à l'abonnement que vous souhaitez déconfigurer, cliquez sur le menu d'action et sélectionnez *Déconfigurer*.
+. Dans la ligne correspondant à l'abonnement que vous souhaitez déconfigurer, sélectionnez le menu Actions puis *Déconfigurer*.
 . Suivez les instructions pour supprimer ou réinitialiser tous les paramètres ou données associés.
 . Attendez que le statut soit mis à jour vers *Non configuré*.
 

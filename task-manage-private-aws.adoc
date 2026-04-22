@@ -38,7 +38,7 @@ Vous devez compléter toutes les étapes pour activer votre offre privée. Saute
 
 ====
 .Étapes
-. Cliquez sur le lien d’activation de l’offre privée de votre équipe commerciale NetApp . Le lien devrait ressembler à ce qui suit :
+. Sélectionnez le lien d'activation de l'offre privée auprès de votre équipe commerciale NetApp. Le lien devrait ressembler à ce qui suit :
 `https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
 +
  If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
@@ -81,16 +81,16 @@ Pour les offres contractuelles, indiquez le nombre d'unités convenues. Pour Clo
 ====
 . Pour accepter l’offre privée, procédez comme suit :
 +
-.. Pour une utilisation à la demande, cliquez sur *S'abonner*.
-.. Pour les offres de contrat, saisissez le nombre d'unités pour chaque service et cliquez sur *Créer un contrat*.
+.. Pour une utilisation à la demande, sélectionnez *Subscribe*.
+.. Pour les offres contractuelles, saisissez le nombre d'unités pour chaque service et sélectionnez *Create contract*.
 
 
 . Après acceptation, une bannière confirme l'abonnement et fournit les instructions d'inscription.
-. Cliquez sur *Configurer votre compte*. Cela redirige vers la NetApp Console pour configurer l'abonnement.
+. Sélectionnez *Configurer votre compte*. Cela vous redirige vers la NetApp Console pour configurer l'abonnement.
 +
 [NOTE]
 ====
-Si vous avez accepté l'offre mais n'avez pas terminé l'inscription, revenez à la page du produit. Pour les listes de contrats, cliquez sur *Afficher les options d'achat* pour afficher l'offre, puis sélectionnez *Configurer votre compte*.
+Si vous avez accepté l'offre mais n'avez pas finalisé votre inscription, retournez à la page du produit. Pour les offres sous contrat, sélectionnez *Voir les options d'achat* pour afficher l'offre, puis sélectionnez *Configurer votre compte*.
 
 ====
 . Sign in à https://console.netapp.com[].
@@ -110,8 +110,8 @@ Si vous avez accepté l'offre mais n'avez pas terminé l'inscription, revenez à
 ====
 
 
-. Cliquez sur **Devenir associé**.
-. Remplissez le formulaire pour associer l'abonnement à votre organisation Console.  Ensuite, cliquez sur **Associer**.
+. Sélectionnez **Associate**.
+. Remplissez le formulaire pour associer l'abonnement à votre organisation Console. Sélectionnez **Associer**.
 . Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
 . Consultez les options d'abonnement disponibles sur la plateforme.
 . Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.

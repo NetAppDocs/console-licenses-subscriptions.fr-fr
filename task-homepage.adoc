@@ -13,17 +13,17 @@ summary: Obtenez un aperçu de tous les abonnements et licences de votre organis
 == Utiliser l'aperçu du tableau de bord
 
 [role="lead"]
-Utilisez le tableau de bord *Aperçu* dans la console pour surveiller l'état de vos licences et abonnements afin de vous assurer de pouvoir gérer les coûts et maintenir le service lorsque les abonnements atteignent les dates d'expiration ou les limites de capacité.
+Le tableau de bord *Vue d'ensemble* dans la NetApp Console vous aide à surveiller l'état de vos Licenses and subscriptions afin de vous permettre de gérer les coûts et de maintenir le service lorsque les abonnements arrivent à expiration ou atteignent leurs limites de capacité.
 
-Vous pouvez afficher des informations spécifiques sur les licences et les abonnements de chacun de vos services de données (y compris Cloud Volumes ONTAP) et accéder aux détails de chacun.
+Vous pouvez consulter les informations spécifiques relatives aux licenses and subscriptions de chacun de vos services de données (y compris Cloud Volumes ONTAP).
 
-Vous serez également averti des limites de capacité ou des expirations à venir et serez invité à prendre des mesures.
+Le tableau de bord Licenses and subscriptions vous alerte des prochaines limites de capacité ou expirations, vous incitant à prendre les mesures nécessaires.
 
 
 
 === Afficher les détails d'un service de données spécifique
 
-Le tableau de bord *Aperçu* permet d'afficher les détails des services de données suivants :
+Le tableau de bord *Aperçu* fournit des informations détaillées sur les services suivants :
 
 * Cloud Volumes ONTAP
 * Reprise après sinistre
@@ -63,11 +63,11 @@ link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des 
 
 === Résoudre les problèmes de licence ou d'abonnement
 
-Vous pouvez afficher les problèmes de licence et d’abonnement qui doivent être résolus.  Les problèmes incluent les licences et les abonnements qui expirent ou atteignent leur capacité.
+Dans le tableau de bord Vue d'ensemble, vous pouvez consulter les problèmes de licenses and subscriptions à résoudre. Il s'agit notamment des licenses and subscriptions arrivant à expiration ou ayant atteint leur capacité maximale.
 
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Aperçu*.
-. Sélectionnez *Résoudre* pour la mosaïque *Nécessite une action* pour afficher les problèmes qui doivent être réglés.  Si *Résoudre* ne s'affiche pas, aucun problème ne nécessite d'action pour le moment.
+. Dans la vignette *Action requise*, sélectionnez *Résoudre* pour afficher les problèmes à corriger. Si *Résoudre* n'apparaît pas, il n'y a aucun problème nécessitant une action.
 . À partir de la page *Action requise*, sélectionnez l'onglet *Licences* ou l'onglet *Abonnements*.
 . Utilisez le menu actions pour résoudre le problème.
 +
