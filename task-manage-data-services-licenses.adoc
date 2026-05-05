@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, bluexp, netapp console, classification, tiering, backup and recovery, disaster recovery 
-summary: 'Gérez les licences que vous avez achetées directement auprès de NetApp (BYOL) pour les utiliser avec les services de données NetApp .  Vous pouvez afficher la capacité de licence utilisée, la quantité de capacité libre restante et vous verrez des notifications si vous avez atteint la limite de capacité ou la date d"expiration.' 
+summary: 'Gérez les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec les services de données NetApp. Vous pouvez consulter la capacité de licence utilisée, l"utilisation de cette capacité et les dates d"expiration à venir.' 
 ---
 = Gérer les licences pour les services de données NetApp
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Gérez les licences que vous avez achetées directement auprès de Net
 
 
 [role="lead"]
-Vous pouvez gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour les utiliser avec les services de données NetApp , notamment Cloud Volumes ONTAP.  Vous pouvez afficher la capacité de licence utilisée, la quantité de capacité libre restante et vous verrez des notifications lorsque vous atteindrez la limite de capacité ou la date d'expiration.
+Vous pouvez gérer les licences que vous avez achetées directement auprès de NetApp (BYOL) pour une utilisation avec les services de données NetApp, y compris Cloud Volumes ONTAP. Vous pouvez consulter la capacité de licence utilisée, l’utilisation de la capacité et les dates d’expiration à venir.
 
 
 NOTE: La page *Licences directes* répertorie toutes les licences.  Si vous souhaitez obtenir des détails sur la licence d'un service de données spécifique, utilisez les vignettes de service de données sur le tableau de bord *Aperçu*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"] .
@@ -39,7 +39,7 @@ Lorsque vous achetez une licence auprès d'un représentant commercial NetApp , 
 .Étapes
 . Trouvez l'ID de votre compte console :
 +
-.. Dans le coin supérieur droit de la console, sélectionnezimage:icon-settings-option.png["L'icône des paramètres qui s'affiche en haut à droite de la console Web."] > *Gestion des identités et des accès*.
+.. Dans le menu de navigation de la console, sélectionnez *Administration* > *Identité et accès*.
 .. Sur la page Organisation, recherchez votre ID de compte et copiez-le.
 +
 Si aucun ID de compte n'est répertorié et que vous n'avez qu'un ID d'organisation, copiez les huit premiers caractères de l'ID d'organisation et ajoutez-le à *account-*
@@ -68,7 +68,7 @@ compte-ea10e1c6
 
 == Ajouter une licence
 
-Les informations de licence s'affichent automatiquement dans la section ** Licenses and subscriptions** lorsque le compte NetApp Console associé à la licence est également un compte de site de support NetApp et dispose d'un accès Internet.  Si vous avez utilisé un compte de console qui n'est pas associé à votre compte NSS, vous devrez ajouter manuellement une licence.
+Les informations de licence s'affichent automatiquement dans la section **Licenses and subscriptions** si le compte NetApp Console associé à la licence est également un compte NetApp Support Site. Si vous avez utilisé un compte Console qui n'est pas associé à votre compte NSS, vous devrez ajouter une licence manuellement.
 
 Vous pouvez ajouter la licence dans la console soit en saisissant le numéro de série et le compte NSS associé, soit en téléchargeant le fichier de licence NetApp (NLF).  Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
 
@@ -78,7 +78,8 @@ Après avoir acheté une licence auprès de votre représentant commercial NetAp
 NOTE: Pour saisir le numéro de série, commencez par https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["ajoutez votre compte de site de support NetApp à la console"^] .  Il s’agit du compte du site de support NetApp autorisé à accéder au numéro de série.
 
 .Étapes
-. Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions* puis sélectionnez l'onglet *Licences directes*.
+. Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
+. Sélectionnez l'onglet *Licences directes*.
 . Sélectionnez *Ajouter une licence*.
 . Dans la boîte de dialogue *Ajouter une licence*, saisissez les informations de licence et sélectionnez *Ajouter une licence* :
 +
@@ -133,4 +134,9 @@ Une fois le paiement effectué et la licence enregistrée sur le site de support
 
 == Afficher l'état de la licence
 
-Directive non résolue dans <stdin> - include::task-view-license-status.adoc[]
+Pour gérer les licences, vous pouvez regrouper les licences en fonction du nom du service.  Cela vous permet de voir toutes les licences liées à un service spécifique.  Vous pouvez développer une ligne pour afficher des informations détaillées sur chaque licence liée au service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.  Les licences sont automatiquement regroupées par nom de service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.
+
+.Étapes
+. Dans le menu Console, sélectionnez *Administration* > * Licenses and subscriptions*, puis sélectionnez l'onglet *Licences directes*.
+. Sélectionnez une ligne de nom de service pour la développer. Cela affiche toutes les licences associées à ce service. Chaque ligne développée affiche des informations détaillées sur les licences, y compris l'identifiant de licence, le numéro de série, la capacité et la date d'expiration.
+

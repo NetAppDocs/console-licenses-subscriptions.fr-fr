@@ -13,7 +13,7 @@ summary: Obtenez un aperçu de tous les abonnements et licences de votre organis
 == Utiliser l'aperçu du tableau de bord
 
 [role="lead"]
-Le tableau de bord *Vue d'ensemble* dans la NetApp Console vous aide à surveiller l'état de vos Licenses and subscriptions afin de vous permettre de gérer les coûts et de maintenir le service lorsque les abonnements arrivent à expiration ou atteignent leurs limites de capacité.
+Le tableau de bord *Vue d'ensemble* dans la NetApp Console vous aide à surveiller l'état de vos licences et abonnements afin de vous permettre de gérer les coûts et de maintenir le service lorsque les abonnements arrivent à expiration ou atteignent leurs limites de capacité.
 
 Vous pouvez consulter les informations spécifiques relatives aux licenses and subscriptions de chacun de vos services de données (y compris Cloud Volumes ONTAP).
 
@@ -25,11 +25,11 @@ Le tableau de bord Licenses and subscriptions vous alerte des prochaines limites
 
 Le tableau de bord *Aperçu* fournit des informations détaillées sur les services suivants :
 
+* Sauvegarde et récupération
+* Hiérarchisation du cloud
 * Cloud Volumes ONTAP
 * Reprise après sinistre
 * Résilience aux ransomwares
-* Sauvegarde et récupération
-* Hiérarchisation du cloud
 
 
 Par exemple, les administrateurs chargés de gérer les ressources Cloud Volumes ONTAP peuvent afficher la capacité actuelle de chaque licence ou abonnement, ce qui leur donne une vue ciblée des ressources relevant de leur compétence.
@@ -52,7 +52,7 @@ Chaque tuile fournit un aperçu graphique de la capacité.  Vous pouvez consulte
 . Développez n’importe quelle ligne pour afficher les détails de ce que comprend l’abonnement ou la licence, la capacité achetée et les conditions.
 . Utilisez le menu Actions pour gérer une licence ou un abonnement spécifique, comme la mise à jour d'une licence ou l'association d'un abonnement à une autre organisation.
 +
-Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements à partir de la page *Aperçu* pour un service spécifique.  Vous ne pouvez ajouter des licences ou des abonnements qu'à partir de l'onglet *Licences directes* ou de l'onglet *Abonnements Marketplace*, respectivement.
+Vous ne pouvez pas ajouter de nouvelles licences ou de nouveaux abonnements depuis la page *Overview* d'un service spécifique. Vous pouvez uniquement ajouter des licences depuis l'onglet *Direct licenses* ou des abonnements depuis l'onglet *Marketplace subscriptions*.
 
 +
 link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences."] link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements."]

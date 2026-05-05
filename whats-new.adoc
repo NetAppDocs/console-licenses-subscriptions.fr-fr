@@ -24,7 +24,7 @@ Découvrez les nouveautés concernant les licences et les abonnements NetApp Con
 
 === Gérer les préférences de facturation
 
-Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console.  Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .
+Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la façon dont l’utilisation de la capacité, les renouvellements et les coûts sont facturés pour les licences NetApp directes, les abonnements à la place de marché cloud et les accords Keystone.
 
 Pour plus d'informations, consultez lelink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"^] .
 
@@ -82,9 +82,9 @@ Vous pouvez désormais mettre à jour l'organisation à laquelle un abonnement e
 
 
 
-=== Gestion des licences Cloud Volume ONTAP
+=== Gestion des licences Cloud Volumes ONTAP
 
-Vous gérez désormais les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *Licences directes*.  Utilisez l'onglet *Abonnements Marketplace* pour afficher les informations de votre abonnement.
+Vous pouvez désormais gérer les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *Licences directes*. Utilisez l'onglet *Abonnements Marketplace* pour consulter les informations relatives à votre abonnement.
 
 
 

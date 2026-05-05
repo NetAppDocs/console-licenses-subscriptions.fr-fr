@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-billing-preferences-terms.html 
 keywords: license, licensing, licenses, subscriptions, 
-summary: Les licences et abonnements vous permettent de gérer et de surveiller les licences NetApp Console , les abonnements NetApp Marketplace et NetApp Keystone. 
+summary: Licenses and subscriptions vous permet de gérer et de surveiller les licences NetApp Console, les abonnements NetApp marketplace et NetApp Keystone. 
 ---
 = Termes et définitions
 :hardbreaks:
@@ -20,7 +20,7 @@ Les préférences de facturation déterminent la manière dont NetApp Console g�
 * *Par abonnement* — s'applique uniquement à une plateforme de vente spécifique ou à un contrat de licence directe.
 
 
-La source de facturation peut être la suivante :
+Les sources de facturation peuvent être :
 
 * *Abonnements Marketplace* — La facturation s'effectue via AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace.  Vous pouvez choisir le compte de facturation, la région et les options de renouvellement proposés par la plateforme cloud.
 * *Licences directes* — La facturation s'effectue via NetApp.  Vous gérez les clés de licence, les contacts de facturation et le renouvellement automatique dans la NetApp Console.
@@ -75,4 +75,18 @@ Les préférences de facturation vous permettent de : - imposer une liste de co
 
 == Chemins de configuration typiques
 
-| Scénario | Option de facturation recommandée | |-----------|-----------------------------| | Utilisation de la capacité achetée NetApp | Licences NetApp en premier | | Utilisation des contrats marketplace uniquement | Abonnements marketplace uniquement | | Facturation de plusieurs projets auprès d'un seul fournisseur de cloud | Activer la configuration CVO personnalisée | | Retour à la facturation par défaut | Désactiver la configuration CVO personnalisée |
+|===
+| Scénario | Option de facturation recommandée |  
+
+
+| Utilisation de la capacité NetApp achetée | NetApp licenses d'abord |  
+
+
+| Utilisation exclusive des contrats de marketplace | Abonnements Marketplace uniquement |  
+
+
+| Facturation de plusieurs projets auprès d'un seul fournisseur de cloud | Activer la configuration CVO personnalisée |  
+
+
+| Retour à la facturation par défaut | Désactiver la configuration CVO personnalisée |  
+|===

@@ -24,6 +24,6 @@ Vous pouvez désormais mettre à jour l'organisation à laquelle un abonnement e
 
 
 
-=== Gestion des licences Cloud Volume ONTAP
+=== Gestion des licences Cloud Volumes ONTAP
 
-Vous gérez désormais les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *Licences directes*.  Utilisez l'onglet *Abonnements Marketplace* pour afficher les informations de votre abonnement.
+Vous pouvez désormais gérer les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *Licences directes*. Utilisez l'onglet *Abonnements Marketplace* pour consulter les informations relatives à votre abonnement.

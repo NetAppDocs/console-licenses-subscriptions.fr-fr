@@ -44,7 +44,7 @@ Vous devez compléter toutes les étapes pour accepter et activer votre offre pr
 
 Si vous constatez des divergences dans les conditions, les prix ou les détails de l’offre, ou si vous n’êtes pas sûr de l’offre à accepter, n’acceptez pas l’offre. Contactez votre équipe commerciale NetApp .
 
-Accepter et activer l'offre plusieurs fois entraîne une double facturation.
+Accepter et activer l'offre plusieurs fois peut entraîner une double facturation.
 
 ====
 .Étapes
@@ -99,11 +99,11 @@ L'automatisation côté Azure peut prendre entre 30 secondes et 5 minutes pour s
 
 . Sélectionnez **Associate**.
 . Remplissez le formulaire pour associer l'abonnement à votre organisation Console. Sélectionnez **Associer**.
-. Après avoir associé l'abonnement, accédez à l'onglet **Préférences de facturation** et sélectionnez-le.
+. Après avoir associé l'abonnement, sélectionnez l'onglet **Préférences de facturation**.
 . Consultez les options d'abonnement disponibles sur la plateforme.
 . Sélectionnez l'abonnement à la plateforme que vous souhaitez facturer.  Cela ne s'applique que lorsqu'il existe plus d'une option.
 . Sélectionnez **Enregistrer les modifications**.
-. Répétez ces étapes au besoin, s'il existe plusieurs abonnements auprès de plusieurs fournisseurs de cloud.
+. Répétez ces étapes autant de fois que nécessaire s'il existe plusieurs abonnements auprès de différents fournisseurs de cloud.
 
 
-Pour plus d'informations sur les abonnements à la plateforme et la facturation directe des licences, consultez la section link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"].
+Pour plus d'informations sur la facturation des abonnements marketplace et des licences directes, consultez link:concept-billing-preferences.html["Découvrez les préférences de facturation pour les licences et les abonnements."].

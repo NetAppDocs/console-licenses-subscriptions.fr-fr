@@ -133,7 +133,7 @@ NOTE: La console prend en charge la gestion des identités et des accès (IAM) e
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
 . Dans la ligne correspondant à l'abonnement que vous souhaitez associer, ouvrez le menu Actions puis sélectionnez *Associer*.
-. Dans la boîte de dialogue *Associer l'abonnement*, sélectionnez une ou plusieurs organisations à associer à l'abonnement.
+. Dans la boîte de dialogue *Associer l’abonnement*, sélectionnez les organisations Console que vous souhaitez associer à l’abonnement.
 . Sélectionnez *Associer*.
 
 
@@ -149,7 +149,7 @@ NOTE: Utilisez la liste déroulante Agent dans la barre de navigation supérieur
 .Étapes
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
-. Sur la ligne contenant l’abonnement dont vous souhaitez afficher les informations d’identification, sélectionnez Afficher.  Si plusieurs informations d'identification sont associées à un abonnement, aucune information d'identification ne peut s'afficher et vous êtes invité à sélectionner un autre agent.
+. Sur la ligne correspondant à l'abonnement dont vous souhaitez consulter les informations d'identification, sélectionnez *Afficher*. Si plusieurs informations d'identification sont associées à un abonnement, aucune information d'identification ne peut s'afficher et vous êtes invité à sélectionner un autre agent.
 
 
 
@@ -170,23 +170,18 @@ Avant de pouvoir supprimer un abonnement, vous devez le déconfigurer.  Cela eff
 
 === Supprimer un abonnement
 
-Lorsque vous vous désabonnez d'un abonnement auprès de votre fournisseur cloud (AWS, Google Cloud ou Azure), la console affiche le statut de l'abonnement comme *Désabonné*.
+Lorsque vous vous désabonnez d'un abonnement auprès de votre fournisseur de cloud (AWS, Google Cloud ou Azure), la Console affiche l'état de l'abonnement comme *Unsubscribed*. Lorsque vous vous êtes désabonné d'un abonnement, vous pouvez également le supprimer de Licenses and subscriptions.
 
-Vous pouvez supprimer les abonnements *Désabonnés* de la console afin qu'ils n'apparaissent plus.
+.Avant de commencer
+* Vous pouvez uniquement supprimer les abonnements dont le statut est *Désabonné*. Tous les paramètres, données et configurations associés doivent être effacés ou réinitialisés avant suppression.
++
+Si l'abonnement est toujours configuré, l'option *Supprimer* n'est pas disponible.
 
-[NOTE]
-====
-Vous ne pouvez supprimer que les abonnements qui sont à la fois *Désabonnés* et *Non configurés*.  Tous les paramètres, données et configurations associés doivent être effacés ou réinitialisés avant la suppression.
 
-Si l'abonnement est toujours configuré, l'option *Supprimer* ne s'affiche pas.  Pour rendre l’option disponible, annulez la configuration de l’abonnement en supprimant tous les paramètres, services ou données associés.
 
-====
 .Étapes
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
 . Dans la ligne de l'abonnement que vous souhaitez supprimer, ouvrez le menu d'action et sélectionnez *Supprimer*.
-+
-Vous ne pouvez supprimer que les abonnements dont le statut est *Désabonné* et *Non configuré*.
-
-. Dans la boîte de dialogue *Supprimer l'abonnement*, confirmez que vous souhaitez supprimer l'abonnement.
+. Dans la boîte de dialogue *Supprimer l’abonnement*, sélectionnez *Supprimer* pour confirmer que vous souhaitez supprimer l’abonnement.
 
