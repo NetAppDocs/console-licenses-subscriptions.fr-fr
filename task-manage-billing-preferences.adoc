@@ -17,10 +17,11 @@ summary: Configurez les préférences de facturation dans la NetApp Console pour
 Vous pouvez configurer et gérer les préférences de facturation dans la NetApp Console afin de contrôler la façon dont l'utilisation de la capacité, les renouvellements et les factures sont appliqués aux comptes de votre organisation. Les préférences de facturation déterminent si les frais d'utilisation proviennent des licences NetApp, des contrats du cloud marketplace ou des accords Keystone.
 
 .Avant de commencer
-* Vous avez accès au rôle *Administrateur*.
 * Tous les abonnements pertinents aux plateformes de vente en ligne sont liés à votre organisation.
 * Vous avez examiné la configuration existante pour les *licences et les abonnements*.
 
+
+*Rôle Console requis* Pour effectuer cette tâche, vous devez disposer du rôle d'administrateur Licenses and subscriptions.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Découvrez les rôles Licenses and subscriptions pour la NetApp Console"^]
 
 
 
@@ -39,10 +40,10 @@ Vous pouvez choisir comment la console applique les frais d'utilisation selon le
 
 . Sous *Abonnements Marketplace*, sélectionnez l’abonnement pour chaque fournisseur de cloud (AWS, Azure et Google Cloud).
 . Si vous utilisez plusieurs abonnements auprès d'un même fournisseur de cloud, activez la *configuration CVO personnalisée*.
-. (Facultatif) Mettez à jour les *contacts de facturation* et les *contacts de notification*.
-. (Facultatif) Saisissez une *étiquette de centre de coûts* pour associer la facturation aux codes comptables internes.
+. Vous pouvez également mettre à jour les *Contacts de facturation* et les *Contacts de notification*.
+. Vous pouvez également saisir une  pour associer la facturation aux codes comptables internes.
 . Sélectionnez *Enregistrer les modifications*.
-. Lorsque vous y êtes invité, examinez la boîte de dialogue de confirmation et sélectionnez *Confirmer*.
+. Lorsque vous y êtes invité, examinez la boîte de dialogue de confirmation puis sélectionnez *Confirmer*.
 
 
 .Résultat

@@ -71,6 +71,8 @@ Dans le tableau de bord Vue d'ensemble, vous pouvez consulter les problèmes de 
 . À partir de la page *Action requise*, sélectionnez l'onglet *Licences* ou l'onglet *Abonnements*.
 . Utilisez le menu actions pour résoudre le problème.
 +
-link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"]. link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"].
+** link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des licences"].
+** link:task-manage-subscriptions.html["En savoir plus sur la gestion des abonnements"].
+
 
 

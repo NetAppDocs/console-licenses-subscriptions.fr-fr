@@ -28,6 +28,8 @@ Les instructions sur cette page fournissent des informations qui s’appliquent 
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html["Configurer les licences pour Cloud Volumes ONTAP"^]
 
 
+*Rôle Console requis* Pour effectuer cette tâche, vous devez disposer du rôle d'administrateur Licenses and subscriptions.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Découvrez les rôles Licenses and subscriptions pour la NetApp Console"^]
+
 
 
 == Obtenir un fichier de licence
@@ -68,7 +70,7 @@ compte-ea10e1c6
 
 == Ajouter une licence
 
-Les informations de licence s'affichent automatiquement dans la section **Licenses and subscriptions** si le compte NetApp Console associé à la licence est également un compte NetApp Support Site. Si vous avez utilisé un compte Console qui n'est pas associé à votre compte NSS, vous devrez ajouter une licence manuellement.
+Les informations de licence s'affichent automatiquement dans la section **Licenses and subscriptions** si le compte NetApp Console associé à la licence est également un compte NetApp Support Site et dispose d'un accès Internet. Si vous avez utilisé un compte Console qui n'est pas associé à votre compte NSS, vous devez ajouter une licence manuellement.
 
 Vous pouvez ajouter la licence dans la console soit en saisissant le numéro de série et le compte NSS associé, soit en téléchargeant le fichier de licence NetApp (NLF).  Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas d'accès Internet (installations en mode privé).
 

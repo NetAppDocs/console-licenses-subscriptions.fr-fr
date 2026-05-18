@@ -37,11 +37,17 @@ Vous devez disposer du rôle *Account Admin* ou *Billing Admin* pour modifier le
 
 == Définir les préférences de facturation
 
-Les préférences de facturation vous permettent de : - imposer une liste de contacts de facturation unique pour tous les services, - aligner l'utilisation sur les centres de coûts, - gérer les notifications de renouvellement automatique et d'expiration, - garantir que les nouveaux systèmes Cloud Volumes ONTAP (CVO) héritent du compte de facturation approprié.
+Les préférences de facturation vous permettent de :
+
+* imposer une liste de contacts unique pour la facturation à travers tous les services,
+* aligner l'utilisation sur les centres de coûts,
+* gérer les notifications de renouvellement automatique et d'expiration,
+* S'assurer que les nouveaux systèmes Cloud Volumes ONTAP (CVO) héritent du compte de facturation approprié.
 
 
 
-= Champs de facturation
+
+== Champs de facturation
 
 
 
@@ -54,7 +60,7 @@ Les préférences de facturation vous permettent de : - imposer une liste de co
 
 
 
-= Options et définitions de facturation
+== Options et définitions de facturation
 
 
 
@@ -76,17 +82,17 @@ Les préférences de facturation vous permettent de : - imposer une liste de co
 == Chemins de configuration typiques
 
 |===
-| Scénario | Option de facturation recommandée |  
+| Scénario | Option de facturation recommandée 
 
 
-| Utilisation de la capacité NetApp achetée | NetApp licenses d'abord |  
+| Utilisation de la capacité NetApp achetée | NetApp licenses d'abord 
 
 
-| Utilisation exclusive des contrats de marketplace | Abonnements Marketplace uniquement |  
+| Utilisation exclusive des contrats de marketplace | Abonnements Marketplace uniquement 
 
 
-| Facturation de plusieurs projets auprès d'un seul fournisseur de cloud | Activer la configuration CVO personnalisée |  
+| Facturation de plusieurs projets auprès d'un seul fournisseur de cloud | Activer la configuration CVO personnalisée 
 
 
-| Retour à la facturation par défaut | Désactiver la configuration CVO personnalisée |  
+| Retour à la facturation par défaut | Désactiver la configuration CVO personnalisée 
 |===

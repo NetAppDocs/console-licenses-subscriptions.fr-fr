@@ -23,6 +23,8 @@ Lorsque vous vous abonnez aux services de données NetApp (y compris Cloud Volum
 
 NOTE: La page *Abonnements Marketplace* répertorie toutes les licences.  Pour obtenir des détails sur la licence d'un service de données spécifique, utilisez les vignettes de service de données sur le tableau de bord *Aperçu*. link:task-homepage.html#overview-page["En savoir plus sur le tableau de bord de présentation"] .
 
+*Rôle Console requis* Pour effectuer cette tâche, vous devez disposer du rôle d'administrateur Licenses and subscriptions.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["Découvrez les rôles Licenses and subscriptions pour la NetApp Console"^]
+
 
 
 == Ajouter un nouvel abonnement au marché
@@ -150,20 +152,6 @@ NOTE: Utilisez la liste déroulante Agent dans la barre de navigation supérieur
 . Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
 . Sélectionnez *Abonnements Marketplace*.
 . Sur la ligne correspondant à l'abonnement dont vous souhaitez consulter les informations d'identification, sélectionnez *Afficher*. Si plusieurs informations d'identification sont associées à un abonnement, aucune information d'identification ne peut s'afficher et vous êtes invité à sélectionner un autre agent.
-
-
-
-
-=== Déconfigurer un abonnement
-
-Avant de pouvoir supprimer un abonnement, vous devez le déconfigurer.  Cela efface toutes les données et tous les paramètres associés.
-
-.Étapes
-. Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
-. Sélectionnez *Abonnements Marketplace*.
-. Dans la ligne correspondant à l'abonnement que vous souhaitez déconfigurer, sélectionnez le menu Actions puis *Déconfigurer*.
-. Suivez les instructions pour supprimer ou réinitialiser tous les paramètres ou données associés.
-. Attendez que le statut soit mis à jour vers *Non configuré*.
 
 
 
