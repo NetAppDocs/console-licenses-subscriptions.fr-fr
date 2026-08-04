@@ -25,6 +25,7 @@ La console affiche des détails sur les clusters ONTAP locaux que vous avez déc
 
 
 
+[[view-cluster-information-and-contract-details]]
 == Afficher les informations du cluster et les détails du contrat
 
 Affichez l’état des contrats matériels et logiciels de vos clusters ONTAP sur site afin de pouvoir les renouveler avant leur expiration.
@@ -44,6 +45,7 @@ Si vous êtes invité à saisir d'abord les informations d'identification de vot
 
 
 
+[[discover-clusters]]
 == Découvrir les clusters
 
 Si vous n’avez pas découvert de cluster ONTAP sur site en tant que système, vous pouvez le faire à partir de la console.  Une fois découvert, un cluster est disponible en tant que système afin que vous puissiez le gérer.

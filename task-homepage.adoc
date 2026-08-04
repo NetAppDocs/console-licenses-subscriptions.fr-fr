@@ -10,6 +10,8 @@ summary: Obtenez un aperçu de tous les abonnements et licences de votre organis
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == Utiliser l'aperçu du tableau de bord
 
 [role="lead"]
@@ -21,6 +23,7 @@ Le tableau de bord Licenses and subscriptions vous alerte des prochaines limites
 
 
 
+[[view-details-about-a-specific-data-service]]
 === Afficher les détails d'un service de données spécifique
 
 Le tableau de bord *Aperçu* fournit des informations détaillées sur les services suivants :
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["En savoir plus sur la gestion des 
 
 
 
+[[resolve-license-or-subscription-issues]]
 === Résoudre les problèmes de licence ou d'abonnement
 
 Dans le tableau de bord Vue d'ensemble, vous pouvez consulter les problèmes de licenses and subscriptions à résoudre. Il s'agit notamment des licenses and subscriptions arrivant à expiration ou ayant atteint leur capacité maximale.

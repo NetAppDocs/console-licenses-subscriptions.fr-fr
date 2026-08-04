@@ -29,6 +29,7 @@ Acceptez une offre privée Marketplace pour la liste de la NetApp Console dans l
 
 
 
+[[accept-the-private-offer-in-google-cloud]]
 == Accepter l'offre privée dans Google Cloud
 
 Un projet Google Cloud ne peut être associé qu'à un seul abonnement Marketplace. Si vous souhaitez utiliser deux abonnements différents pour les charges de travail dans le même projet Google Cloud, vous devez créer deux comptes de console distincts, un pour chaque abonnement.

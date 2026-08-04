@@ -28,6 +28,7 @@ Acceptez une offre privée Marketplace pour la NetApp Console dans le portail AW
 
 
 
+[[accept-the-private-offer-in-the-aws-marketplace-portal]]
 == Acceptez l'offre privée dans le portail AWS Marketplace
 
 La finalisation de l'abonnement dans la console est nécessaire pour activer l'achat et appliquer des tarifs réduits.

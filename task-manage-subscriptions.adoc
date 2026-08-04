@@ -27,6 +27,7 @@ NOTE: La page *Abonnements Marketplace* répertorie toutes les licences.  Pour o
 
 
 
+[[add-a-new-marketplace-subscription]]
 == Ajouter un nouvel abonnement au marché
 
 Vous pouvez souscrire à un abonnement marketplace directement depuis la Console.
@@ -46,6 +47,7 @@ Vous pouvez souscrire à un abonnement marketplace directement depuis la Console
 
 
 
+[[view-your-subscriptions]]
 == Consultez vos abonnements
 
 Vous pouvez afficher les détails de chaque abonnement PAYGO et contrat annuel associé à votre organisation ou compte Console.
@@ -91,6 +93,7 @@ Contrats::
 
 
 
+[[rename-a-subscription]]
 == Renommer un abonnement
 
 Vous pouvez renommer un abonnement pour mieux identifier comment votre organisation l'utilise.
@@ -103,6 +106,7 @@ Vous pouvez renommer un abonnement pour mieux identifier comment votre organisat
 
 
 
+[[configure-a-subscription-with-a-provider-credential]]
 == Configurer un abonnement avec un identifiant de fournisseur
 
 Les abonnements sont généralement configurés avec les informations d'identification du fournisseur que vous avez créées lors de votre abonnement.  Dans certains cas, vous devrez peut-être reconfigurer un abonnement pour utiliser des informations d'identification différentes afin de modifier la manière dont il est facturé.  Les informations d’identification que vous associez à un abonnement doivent également être associées à un agent.
@@ -120,6 +124,7 @@ L'option Configurer est grisée si vous vous êtes désabonné d'un abonnement.
 
 
 
+[[associate-a-subscription-with-a-console-organization]]
 == Associer un abonnement à une organisation de la console
 
 L'association d'un abonnement à une organisation garantit que les membres de cette organisation peuvent utiliser cet abonnement pour la facturation.
@@ -141,6 +146,7 @@ NOTE: La console prend en charge la gestion des identités et des accès (IAM) e
 
 
 
+[[view-credentials-associated-with-a-subscription]]
 == Afficher les informations d'identification associées à un abonnement
 
 Vous pouvez afficher les informations d'identification d'un abonnement spécifique à partir de la page *Abonnements Marketplace*.  Cela vous permet de vérifier comment l'abonnement est facturé.  Étant donné que les informations d’identification sont liées à l’agent que vous utilisez, vous devez sélectionner l’agent associé à l’abonnement que vous souhaitez afficher.
@@ -156,6 +162,7 @@ NOTE: Utilisez la liste déroulante Agent dans la barre de navigation supérieur
 
 
 
+[[remove-a-subscription]]
 === Supprimer un abonnement
 
 Lorsque vous vous désabonnez d'un abonnement auprès de votre fournisseur de cloud (AWS, Google Cloud ou Azure), la Console affiche l'état de l'abonnement comme *Unsubscribed*. Lorsque vous vous êtes désabonné d'un abonnement, vous pouvez également le supprimer de Licenses and subscriptions.

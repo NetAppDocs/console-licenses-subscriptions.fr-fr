@@ -24,6 +24,7 @@ Vous pouvez configurer la manière dont votre organisation alloue et paie les se
 
 
 
+[[permissions]]
 == Autorisations
 
 La gestion des licences et des abonnements au sein de la NetApp Console est contrôlée par les rôles des utilisateurs. Ces rôles offrent différents niveaux d'accès, permettant ou limitant certaines actions que les utilisateurs peuvent effectuer pour cette fonctionnalité.
@@ -54,6 +55,7 @@ Les utilisateurs possédant ce rôle ont un accès en lecture seule. Les utilisa
 |===
 
 
+[[billing-preferences]]
 == Préférences de facturation
 
 Les préférences de facturation garantissent que les frais d'utilisation et les renouvellements sont appliqués correctement.  Leur configuration correcte réduit les litiges de facturation et facilite la gestion des modèles de licences hybrides qui combinent la capacité détenue par NetApp et la capacité achetée sur le marché.
@@ -71,12 +73,14 @@ Les préférences de facturation sont configurées dans la section * Licenses an
 
 
 
+[[fields]]
 == Champs
 
 Les champs de facturation stockent les métadonnées relatives à la facturation de chaque licence ou abonnement.  Ils précisent qui est facturé, comment s'effectuent les renouvellements et à quel compte ou centre de coûts chaque service appartient.
 
 
 
+[[marketplace-fields]]
 === champs du marché
 
 Les champs Marketplace décrivent les contrats provenant d'un fournisseur de cloud tel qu'AWS, Azure ou Google Cloud. Ces champs définissent comment NetApp Console associe vos abonnements aux informations de facturation stockées dans la marketplace du fournisseur. Ils contrôlent également la gestion des renouvellements, des attributions régionales et des comptes de facturation.
@@ -88,12 +92,14 @@ Les champs Marketplace décrivent les contrats provenant d'un fournisseur de clo
 
 
 
+[[direct-license-fields]]
 === Champs de licence directe
 
 Les champs de licence directe s'appliquent aux contrats gérés par NetApp achetés directement et non via une plateforme cloud.  Elles définissent la manière dont NetApp vous facture, où les frais sont envoyés et quelle entité juridique apparaît sur la facture.  Ces champs sont essentiels pour les organisations utilisant des bons de commande ou une facturation centralisée.
 
 
 
+[[keystone-fields]]
 === champs Keystone
 
 Les champs Keystone s'appliquent à l'utilisation relevant d'un contrat d'abonnement NetApp Keystone .  Elles vous permettent de connecter la consommation de services mesurée à votre profil de facturation Keystone , alignant ainsi les données d'abonnement sur d'autres modèles de licences basés sur la capacité.
@@ -104,12 +110,14 @@ Les champs Keystone s'appliquent à l'utilisation relevant d'un contrat d'abonne
 
 
 
+[[billing-options-and-definitions]]
 == Options et définitions de facturation
 
 Les options de facturation définissent la manière dont NetApp Console priorise et applique les frais d'utilisation lorsque plusieurs sources de facturation sont connectées.  Ils contrôlent quel compte est facturé en premier et comment la facturation bascule entre les licences NetApp et les abonnements au marché lorsque les limites de capacité sont atteintes.
 
 
 
+[[terms-and-options]]
 === Conditions générales et options
 
 Vous pouvez choisir entre les modes de facturation en fonction de la stratégie d'approvisionnement de votre organisation :
@@ -124,6 +132,7 @@ Vous pouvez choisir entre les modes de facturation en fonction de la stratégie 
 
 
 
+[[typical-configuration-paths]]
 === Chemins de configuration typiques
 
 Les exemples suivants illustrent comment différentes configurations de facturation correspondent à des cas courants :

@@ -34,6 +34,7 @@ Acceptez et abonnez-vous à une offre privée Marketplace pour la NetApp Console
 
 
 
+[[accept-and-subscribe-to-the-private-offer-in-the-azure-portal]]
 == Accepter et souscrire à l'offre privée dans le portail Azure
 
 Un abonnement Azure ne peut être associé qu’à un seul abonnement Marketplace. Si vous souhaitez utiliser deux abonnements Marketplace différents pour les charges de travail dans le même abonnement Azure, vous devez créer deux comptes de console distincts, un pour chaque abonnement.  Si vous disposez de plusieurs instances Cloud Volumes ONTAP et que vous souhaitez répartir la facturation entre différents abonnements, créez des comptes de console distincts pour chaque abonnement.

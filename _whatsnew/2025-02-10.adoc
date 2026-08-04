@@ -6,24 +6,28 @@ Le BlueXP digital wallet a été repensé pour une utilisation plus facile et of
 
 
 
+[[new-overview-dashboard]]
 === Nouveau tableau de bord de présentation
 
 La page d'accueil du portefeuille numérique dispose d'un tableau de bord mis à jour de vos licences NetApp et de vos abonnements Marketplace, avec la possibilité d'explorer en détail des services spécifiques, des types de licences et des actions requises.
 
 
 
+[[configuring-subscriptions-to-credentials]]
 === Configuration des abonnements aux informations d'identification
 
 Le BlueXP digital wallet vous permet désormais de configurer vos abonnements aux identifiants des fournisseurs.  En règle générale, vous le faites lorsque vous souscrivez pour la première fois à un abonnement Marketplace ou à un contrat annuel.  Auparavant, la modification des informations d'identification de l'abonnement ne pouvait être effectuée que sur la page Informations d'identification.
 
 
 
+[[associating-subscriptions-with-organizations]]
 === Associer des abonnements à des organisations
 
 Vous pouvez désormais mettre à jour l'organisation à laquelle un abonnement est associé directement à partir du portefeuille numérique.
 
 
 
+[[managing-cloud-volumes-ontap-licenses]]
 === Gestion des licences Cloud Volumes ONTAP
 
 Vous pouvez désormais gérer les licences Cloud Volumes ONTAP via la page d'accueil ou l'onglet *Licences directes*. Utilisez l'onglet *Abonnements Marketplace* pour consulter les informations relatives à votre abonnement.

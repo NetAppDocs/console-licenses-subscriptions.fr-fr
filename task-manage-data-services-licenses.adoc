@@ -32,6 +32,7 @@ Les instructions sur cette page fournissent des informations qui s’appliquent 
 
 
 
+[[obtain-a-license-file]]
 == Obtenir un fichier de licence
 
 Vous devez obtenir un fichier de licence NetApp à télécharger si la console n'a pas accès à Internet (installations en mode privé).
@@ -68,6 +69,7 @@ compte-ea10e1c6
 
 
 
+[[add-a-license]]
 == Ajouter une licence
 
 Les informations de licence s'affichent automatiquement dans la section **Licenses and subscriptions** si le compte NetApp Console associé à la licence est également un compte NetApp Support Site et dispose d'un accès Internet. Si vous avez utilisé un compte Console qui n'est pas associé à votre compte NSS, vous devez ajouter une licence manuellement.
@@ -99,6 +101,7 @@ Si votre compte de site de support NetApp n'est pas disponible dans la liste dé
 
 
 
+[[update-a-license]]
 == Mettre à jour une licence
 
 La console vous avertit lorsque la durée de votre licence approche de l'expiration ou lorsque votre capacité sous licence approche de la limite.  Mettez à jour votre licence avant son expiration pour éviter les interruptions de vos services de données NetApp ou Cloud Volumes ONTAP.
@@ -134,6 +137,7 @@ Une fois le paiement effectué et la licence enregistrée sur le site de support
 
 
 
+[[view-license-status]]
 == Afficher l'état de la licence
 
 Pour gérer les licences, vous pouvez regrouper les licences en fonction du nom du service.  Cela vous permet de voir toutes les licences liées à un service spécifique.  Vous pouvez développer une ligne pour afficher des informations détaillées sur chaque licence liée au service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.  Les licences sont automatiquement regroupées par nom de service.  La ligne racine de chaque service affiche le nom du service et la capacité utilisée pour ce service.
