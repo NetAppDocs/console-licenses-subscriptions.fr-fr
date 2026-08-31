@@ -73,6 +73,34 @@ Les préférences de facturation sont configurées dans la section * Licenses an
 
 
 
+[[flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws]]
+== Facturation flexible pour Cloud Volumes ONTAP et les services de données dans AWS
+
+Dans AWS, la capacité de Cloud Volumes ONTAP et les services de données NetApp peuvent être facturés via différents abonnements AWS Marketplace. Pour plus d’informations sur les modifications et recommandations relatives au programme de remises AWS Enterprise Discount Program (EDP), consultez la link:https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Notes de version de Cloud Volumes ONTAP"].
+
+Si un abonnement Cloud Volumes ONTAP autonome et un abonnement NetApp Intelligent Services (NIS) sont disponibles pour votre compte AWS, vous pouvez utiliser *Préférences de facturation* pour sélectionner l’abonnement utilisé pour la facturation de la capacité Cloud Volumes ONTAP.
+
+
+NOTE: Le comportement de facturation dépend du fait que vous disposiez déjà de systèmes Cloud Volumes ONTAP en fonctionnement et facturés via NIS, ou que vous déployiez de nouveaux systèmes après avoir ajouté l’abonnement Cloud Volumes ONTAP autonome. Pour les systèmes existants, l’ajout de l’abonnement autonome ne modifie pas la facturation, sauf si vous mettez à jour *Billing preferences*. Pour les nouveaux déploiements créés après la disponibilité de l’abonnement autonome, celui-ci est utilisé par défaut pour la facturation de la capacité Cloud Volumes ONTAP (Essentials/Freemium), sauf si vous le modifiez dans *Billing preferences*.
+
+* Abonnement Cloud Volumes ONTAP autonome (recommandé) : capacité Cloud Volumes ONTAP (Essentials/Freemium)
+* NetApp Intelligent Services (NIS) abonnement : NetApp data services (et Cloud Volumes ONTAP Professional)
+
+
+L'abonnement Cloud Volumes ONTAP autonome prend uniquement en charge les formules Essentials et Freemium basées sur la capacité. La formule Professional n'est pas prise en charge et continue d'être facturée via NIS. Si vous ne disposez que de l'abonnement autonome, vous pouvez déployer Cloud Volumes ONTAP avec la formule Essentials, mais la configuration de la sauvegarde et de la restauration nécessite un abonnement différent.
+
+
+
+[[where-to-configure-it]]
+=== Où le configurer
+
+Vous associez les abonnements AWS marketplace sous *Administration > Licenses and subscriptions > Marketplace subscriptions*, et vous choisissez l’abonnement marketplace utilisé pour la facturation de la capacité Cloud Volumes ONTAP sous *Administration > Licenses and subscriptions > Billing preferences*. Vous pouvez vérifier les détails de facturation à l’aide des rapports d’utilisation Cloud Volumes ONTAP.
+
+
+NOTE: Aucun comptage en double ne se produit lorsque vous utilisez plusieurs types d'abonnement ou que vous migrez entre des annonces.
+
+
+
 [[fields]]
 == Champs
 
@@ -85,7 +113,7 @@ Les champs de facturation stockent les métadonnées relatives à la facturation
 
 Les champs Marketplace décrivent les contrats provenant d'un fournisseur de cloud tel qu'AWS, Azure ou Google Cloud. Ces champs définissent comment NetApp Console associe vos abonnements aux informations de facturation stockées dans la marketplace du fournisseur. Ils contrôlent également la gestion des renouvellements, des attributions régionales et des comptes de facturation.
 
-* *Fournisseur de place de marché* — Identifie la plateforme cloud où la facturation est gérée.  Le fournisseur détermine les fonctionnalités prises en charge, les types de contrats et les règles de renouvellement.  Par exemple, les abonnements AWS Marketplace utilisent une facturation basée sur le compte, tandis qu'Azure peut prendre en charge à la fois les modèles basés sur le compte et les modèles basés sur le locataire.
+* *Fournisseur de la Marketplace* — Indique la plateforme cloud sur laquelle la facturation est gérée. Le fournisseur détermine les fonctionnalités prises en charge, les types de contrats et les règles de renouvellement. Par exemple, les abonnements AWS Marketplace utilisent une facturation par compte, tandis qu’Azure peut prendre en charge à la fois les modèles par compte et par locataire.
 * *Numéro de compte de facturation ou d'abonnement* — Spécifie l'identifiant unique du compte utilisé pour le traitement des frais.  Cela garantit que les données d'utilisation sont facturées au profil de facturation cloud approprié.
 * *Durée du contrat* — Définit la durée de l'abonnement et les paramètres de renouvellement.
 

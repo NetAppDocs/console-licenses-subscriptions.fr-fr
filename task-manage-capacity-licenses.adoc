@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-capacity-licenses.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet 
+keywords: license, licenses, licensing, capacity license, capacity based license, add license, install license, digital wallet 
 summary: 'Gérez vos licences basées sur la capacité depuis la NetApp Console pour vous assurer que votre compte NetApp dispose d"une capacité suffisante pour vos systèmes Cloud Volumes ONTAP .' 
 ---
 = Gérer les licences basées sur la capacité pour Cloud Volumes ONTAP
@@ -106,6 +106,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 La console tente toujours de facturer d'abord une licence. Si une licence n'est pas disponible, elle est facturée sur un abonnement au marché. Vous n'avez pas besoin de convertir un abonnement BYOL en abonnement marketplace ou vice versa.
 
 * Si vous disposez d'une offre ou d'un contrat privé auprès de la place de marché de votre fournisseur de cloud, le passage à une méthode de facturation qui n'est pas incluse dans votre contrat entraînera une facturation sur BYOL (si vous avez acheté une licence auprès de NetApp) ou PAYGO.
+* Si vous prévoyez de facturer la capacité Cloud Volumes ONTAP via l’abonnement Cloud Volumes ONTAP autonome dans AWS Marketplace, le système Cloud Volumes ONTAP doit utiliser un forfait basé sur la capacité pris en charge (Essentials ou Freemium). Le forfait Professional n’est pas pris en charge pour l’offre autonome et continue d’être facturé via l’abonnement NIS. Après avoir sélectionné le forfait souhaité, utilisez *Préférences de facturation* dans la NetApp Console pour choisir l’abonnement Marketplace utilisé pour la facturation Cloud Volumes ONTAP.
 
 
 .Étapes
