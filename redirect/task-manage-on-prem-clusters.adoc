@@ -2,7 +2,78 @@
 permalink: task-manage-on-prem-clusters.html 
 redirect: 'https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html' 
 ---
-= 
+= Gérer les licences pour ONTAP sur site
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
+
+[role="lead"]
+Dans la NetApp Console, vous pouvez découvrir un cluster ONTAP et consulter les détails du contrat pour chaque cluster ONTAP sur site que vous avez découvert.
+
+.Avant de commencer
+La Console affiche des détails sur les clusters ONTAP locaux que vous avez découverts en tant que systèmes ou qui sont associés à un compte NetApp Support Site que vous avez ajouté à la Console.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez comment découvrir un cluster ONTAP sur site"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Découvrez comment gérer les informations d'identification NSS associées à votre organisation ou compte Console"^]
+
+
+
+
+[[view-cluster-information-and-contract-details]]
+== Afficher les informations sur le cluster et les détails du contrat
+
+Consultez l'état des contrats matériels et logiciels de vos clusters ONTAP sur site afin de pouvoir les renouveler avant leur expiration.
+
+.Étapes
+. Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
+. Sélectionnez *On-Premises ONTAP*.
++
+Les dates d'expiration des contrats logiciels et matériels apparaissent sur la ligne de chaque cluster.
+
++
+Si vous êtes invité à saisir vos identifiants de compte NetApp Support Site (NSS), sélectionnez *Ajouter un compte NSS*. Une fois le compte ajouté, les clusters associés à ce compte NSS s'affichent.
+
+. Si le contrat arrive bientôt à échéance ou a expiré, vous pouvez sélectionner l'icône de chat en bas à droite de la Console pour demander une prolongation du contrat.
+. Pour afficher plus de détails, sélectionnez image:button_down_caret.png["Une icône de chevron vers le bas"] pour développer les informations du cluster.
+
+
+
+
+[[discover-clusters]]
+== Découvrir les clusters
+
+Si vous n'avez pas découvert un cluster ONTAP sur site en tant que système, vous pouvez le faire depuis la Console. Après sa découverte, un cluster est disponible en tant que système afin que vous puissiez le gérer.
+
+.Avant de commencer
+Vous devez comprendre vos options de découverte et de gestion (découverte à l'aide d'un agent Console ou découverte directe sans agent) ainsi que les exigences en matière de découverte.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrez les options et les exigences de découverte"^].
+
+.Étapes
+. Dans le menu de la NetApp Console , sélectionnez *Administration > Licenses and subscriptions*.
+. Sélectionnez *On-Premises ONTAP*.
++
+Vos clusters ONTAP s'affichent avec un statut indiquant s'ils ont été découverts dans la Console.
+
++
+Si vous êtes invité à saisir vos identifiants de compte NetApp Support Site (NSS), sélectionnez *Ajouter un compte NSS*. Une fois le compte ajouté, les clusters associés à ce compte NSS s'affichent.
+
+. Sélectionnez *Discover* pour le cluster que vous souhaitez gérer via la NetApp Console.
+. Sur la page _Discover ONTAP Cluster_, saisissez le mot de passe du compte utilisateur admin et sélectionnez *Discover*.
+
+
+
+NOTE: L'adresse IP de gestion du cluster est renseignée à partir des informations de votre compte NetApp Support Site.
+
+.Résultat
+La Console détecte le cluster et l'ajoute comme système à la page Systems. L'état du cluster passe à *Discovered* sur la page _On-Premises ONTAP_. Notez que le nom du système est le nom du cluster.
+
+Vous pouvez maintenant commencer à gérer le cluster.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Découvrez comment gérer les clusters découverts avec un agent Console"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["Apprenez à gérer les clusters découverts directement"^]
 

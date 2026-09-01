@@ -955,4 +955,69 @@
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*Fournisseur de la Marketplace* — Indique la plateforme cloud sur laquelle la facturation est gérée. Le fournisseur détermine les fonctionnalités prises en charge, les types de contrats et les règles de renouvellement. Par exemple, les abonnements AWS Marketplace utilisent une facturation par compte, tandis qu’Azure peut prendre en charge à la fois les modèles par compte et par locataire.</block>
   <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">Si vous prévoyez de facturer la capacité Cloud Volumes ONTAP via l’abonnement Cloud Volumes ONTAP autonome dans AWS Marketplace, le système Cloud Volumes ONTAP doit utiliser un forfait basé sur la capacité pris en charge (Essentials ou Freemium). Le forfait Professional n’est pas pris en charge pour l’offre autonome et continue d’être facturé via l’abonnement NIS. Après avoir sélectionné le forfait souhaité, utilisez *Préférences de facturation* dans la NetApp Console pour choisir l’abonnement Marketplace utilisé pour la facturation Cloud Volumes ONTAP.</block>
   <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">Pour AWS, votre compte peut disposer de plusieurs abonnements NetApp Marketplace. Si vous associez uniquement l’abonnement Cloud Volumes ONTAP autonome, vous pouvez déployer Cloud Volumes ONTAP avec Essentials, mais la configuration de Backup and Recovery nécessite un abonnement différent. Pour choisir l’abonnement utilisé pour la facturation de la capacité Cloud Volumes ONTAP (y compris pour modifier la facturation des systèmes existants), accédez à *Administration &gt; Licenses and subscriptions &gt; Billing preferences*.</block>
+  <block id="bd37aa06c2029c58b0902884ca934e5e" category="doc">Termes et définitions</block>
+  <block id="4b843d9eef057518b9ed64591ad8cc70" category="paragraph">Les préférences de facturation déterminent la manière dont NetApp Console gère les paiements, les factures et le renouvellement de vos licences et abonnements. Vous pouvez définir ces préférences à deux niveaux :</block>
+  <block id="717a296215af1e0b2af5244b76c74280" category="list-text">*Global* — s'applique aux licences directes, aux abonnements Marketplace et aux abonnements Keystone.</block>
+  <block id="0d92132a500b2b420133d918adb91673" category="list-text">*Par abonnement* — s'applique uniquement à une marketplace spécifique ou à un contrat de licence directe.</block>
+  <block id="abcc786cf14d5e9fe478edfb4649ff58" category="paragraph">Les sources de facturation peuvent être :</block>
+  <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*Abonnements Marketplace* — La facturation s'effectue via AWS Marketplace, Azure Marketplace ou Google Cloud Marketplace. Vous pouvez choisir le compte de facturation, la région et les options de renouvellement proposés par le cloud marketplace.</block>
+  <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*Licences directes* — La facturation s’effectue via NetApp. Vous gérez les clés de licence, les contacts de facturation et le renouvellement automatique dans NetApp Console.</block>
+  <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">*Abonnements Keystone* — La facturation s’effectue conformément à votre accord Keystone. Vous gérez les destinataires des factures et les étiquettes de centre de coûts dans la NetApp Console.</block>
+  <block id="2efdddb631a543a2ad67578e037161a3" category="paragraph">Vous devez disposer du rôle *Account Admin* ou *Billing Admin* pour modifier les préférences de facturation. Les opérateurs peuvent consulter les préférences mais ne peuvent pas les modifier.</block>
+  <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">Les préférences de facturation vous permettent de :</block>
+  <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">imposer une liste de contacts unique pour la facturation à travers tous les services,</block>
+  <block id="0c2e72ed135dc2fc54e1e457add77dd3" category="list-text">aligner l'utilisation sur les centres de coûts,</block>
+  <block id="22524c2dd89ad7b3b2a7bbcfe12be88f" category="list-text">gérer les notifications de renouvellement automatique et d'expiration,</block>
+  <block id="99036810fbb5c064007679128c501df5" category="list-text">S'assurer que les nouveaux systèmes Cloud Volumes ONTAP (CVO) héritent du compte de facturation approprié.</block>
+  <block id="4ea81f8a69139787ca61e7697fd2ae4f" category="section-title">Champs de facturation</block>
+  <block id="de5d6535f02a78de89a948f550f51d76" category="list-text">*Fournisseur de place de marché* — AWS, Azure, ou Google Cloud.</block>
+  <block id="6c213a0f6bfaa832c881a7e6dd442cc3" category="list-text">*Numéro de compte de facturation / ID d'abonnement* — Le compte de facturation cloud à débiter.</block>
+  <block id="a49cb6e70cf0f2e7f8ba373daf3f4d25" category="list-text">*Durée du contrat* — Durée et modalités de renouvellement.</block>
+  <block id="dc93a0f9fbcf2f1dddd61cf3655b0681" category="list-text">**NetApp licences en premier** — Facturation selon les licences NetApp actives. L’utilisation supplémentaire passe sur la marketplace.</block>
+  <block id="79b82eff65449f7600af5836e03e48c3" category="list-text">**Abonnements Marketplace uniquement** — Toute utilisation est facturée via les contrats Marketplace.</block>
+  <block id="c53e706d7c692386152c58cd70e0ac2d" category="list-text">**PAYGO (Pay-As-You-Go)** — Abonnement flexible facturé selon l'utilisation réelle.</block>
+  <block id="783ffa0d9dc6178367739c0826aafde8" category="list-text">**Contrat annuel** — Abonnement à durée déterminée sur la place de marché.</block>
+  <block id="367c4d3c9a7f8e521868f134ebea90e7" category="list-text">**Renouvellement automatique** — Renouvelle le contrat automatiquement à son expiration.</block>
+  <block id="75d1799660dc5ad8fb212c2db059f014" category="list-text">**Configuration CVO personnalisée** — Mode avancé pour mapper plusieurs abonnements par fournisseur de cloud.</block>
+  <block id="11732b5b63a7e4369465ad45e7b2f8d1" category="list-text">**Licence directe** — licence gérée par NetApp utilisée avant la capacité de la place de marché.</block>
+  <block id="ad32f0863d6f14e2d9551805e23ae323" category="list-text">**Hyperscaler** — fournisseur AWS, Azure ou Google Cloud.</block>
+  <block id="e2499bfbea70502da5b64d43bb910c91" category="list-text">**Boîte de dialogue de confirmation des modifications** — Apparaît avant l'application des mises à jour afin d'éviter toute modification accidentelle de la facturation.</block>
+  <block id="4034ad2bb1e8e26399eef6531403fda6" category="cell">Utilisation de la capacité NetApp achetée</block>
+  <block id="3c214db1e9b5df7d24325803b44aa5aa" category="cell">NetApp licenses d'abord</block>
+  <block id="2cd14b556325088d14b61eb426ad2d2a" category="cell">Utilisation exclusive des contrats de marketplace</block>
+  <block id="f34a8dd98169c2ffb5c475fca10bf726" category="cell">Abonnements Marketplace uniquement</block>
+  <block id="cd9f8fe965cb669b5f7780d601f2a068" category="cell">Facturation de plusieurs projets auprès d'un seul fournisseur de cloud</block>
+  <block id="4684cf5eed11e2cbe98bbf41e64baab1" category="cell">Activer la configuration CVO personnalisée</block>
+  <block id="8231c7512d38624b6c73e0353c9b018c" category="cell">Retour à la facturation par défaut</block>
+  <block id="75b55a88e71b87a8f2223b882c8fdb60" category="cell">Désactiver la configuration CVO personnalisée</block>
+  <block id="7b157739a85d3d5c67c903118518835e" category="doc">Gérer les licences pour ONTAP sur site</block>
+  <block id="3c0e7e5eacb6d93fc4a6e237d9dc57c5" category="paragraph">Dans la NetApp Console, vous pouvez découvrir un cluster ONTAP et consulter les détails du contrat pour chaque cluster ONTAP sur site que vous avez découvert.</block>
+  <block id="857f422578a1e03dfc3a054866eabaeb" category="paragraph">La Console affiche des détails sur les clusters ONTAP locaux que vous avez découverts en tant que systèmes ou qui sont associés à un compte NetApp Support Site que vous avez ajouté à la Console.</block>
+  <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">Découvrez comment découvrir un cluster ONTAP sur site</block>
+  <block id="b23696557397783ca9c44bd2c80b335d" category="list-text"><block ref="b23696557397783ca9c44bd2c80b335d" category="inline-link-rx"></block></block>
+  <block id="c627ab41d97c61821845349a4880080b" category="inline-link">Découvrez comment gérer les informations d'identification NSS associées à votre organisation ou compte Console</block>
+  <block id="f8969c7525255a4701b49192dd720200" category="list-text"><block ref="f8969c7525255a4701b49192dd720200" category="inline-link-rx"></block></block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">Afficher les informations sur le cluster et les détails du contrat</block>
+  <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">Consultez l'état des contrats matériels et logiciels de vos clusters ONTAP sur site afin de pouvoir les renouveler avant leur expiration.</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">Sélectionnez *On-Premises ONTAP*.</block>
+  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">Les dates d'expiration des contrats logiciels et matériels apparaissent sur la ligne de chaque cluster.</block>
+  <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">Si vous êtes invité à saisir vos identifiants de compte NetApp Support Site (NSS), sélectionnez *Ajouter un compte NSS*. Une fois le compte ajouté, les clusters associés à ce compte NSS s'affichent.</block>
+  <block id="1c962c716cf9d1c072d4252a94056d5a" category="list-text">Si le contrat arrive bientôt à échéance ou a expiré, vous pouvez sélectionner l'icône de chat en bas à droite de la Console pour demander une prolongation du contrat.</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">Une icône de chevron vers le bas</block>
+  <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">Pour afficher plus de détails, sélectionnez <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> pour développer les informations du cluster.</block>
+  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">Découvrir les clusters</block>
+  <block id="1cf9d33301fa4cb07a99ed5ba256d866" category="paragraph">Si vous n'avez pas découvert un cluster ONTAP sur site en tant que système, vous pouvez le faire depuis la Console. Après sa découverte, un cluster est disponible en tant que système afin que vous puissiez le gérer.</block>
+  <block id="92421df1db7978a6de6c77c10608c02a" category="paragraph">Vous devez comprendre vos options de découverte et de gestion (découverte à l'aide d'un agent Console ou découverte directe sans agent) ainsi que les exigences en matière de découverte.</block>
+  <block id="01b0421859ec2fed2ce4dff333e190ee" category="inline-link">Découvrez les options et les exigences de découverte</block>
+  <block id="da810fa51a2b9119147838a70412015f" category="paragraph"><block ref="a07feb0a336d59a2369adfa9ca88e728" category="inline-link-rx"></block>.</block>
+  <block id="f6cecdb846b23a4aac2b02906d51d210" category="paragraph">Vos clusters ONTAP s'affichent avec un statut indiquant s'ils ont été découverts dans la Console.</block>
+  <block id="49d43c2b09f782977f5c343a450651ae" category="list-text">Sélectionnez *Discover* pour le cluster que vous souhaitez gérer via la NetApp Console.</block>
+  <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">Sur la page _Discover ONTAP Cluster_, saisissez le mot de passe du compte utilisateur admin et sélectionnez *Discover*.</block>
+  <block id="b2d17e7f9f19a98eddebda3400555598" category="admonition">L'adresse IP de gestion du cluster est renseignée à partir des informations de votre compte NetApp Support Site.</block>
+  <block id="145be65ce972b71bb40e463e2bf3acbd" category="paragraph">La Console détecte le cluster et l'ajoute comme système à la page Systems. L'état du cluster passe à *Discovered* sur la page _On-Premises ONTAP_. Notez que le nom du système est le nom du cluster.</block>
+  <block id="d123a6bdeb75e456b3adf0e79646234d" category="paragraph">Vous pouvez maintenant commencer à gérer le cluster.</block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link">Découvrez comment gérer les clusters découverts avec un agent Console</block>
+  <block id="43c3be2707abdedd2af74a90af5871ba" category="list-text"><block ref="43c3be2707abdedd2af74a90af5871ba" category="inline-link-rx"></block></block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">Apprenez à gérer les clusters découverts directement</block>
+  <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
 </blocks>
