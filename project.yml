@@ -31,7 +31,7 @@ sidebar:
         entries:
         - title: Licences basées sur la capacité pour Cloud Volumes ONTAP
           url: "/task-manage-capacity-licenses.html"
-        - title: Licences basées sur des nœuds pour Cloud Volumes ONTAP
+        - title: Licences BYOL pour Cloud Volumes ONTAP
           url: "/task-manage-node-based-licenses.html"
     - title: Gérer les offres privées
       entries:
